@@ -2,7 +2,11 @@
 @section('title', 'Creative Digital Agency Template')
 @section('content')
 
-@include('pages.widgets.banner-slide')
+    @include('pages.widgets.banner-slide')
+
+    @include('pages.widgets.about-welcome')
+
+    @include('pages.widgets.about-agency')
 
 @include('pages/widgets/service-slide-tabs')
 
