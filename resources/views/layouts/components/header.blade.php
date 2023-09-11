@@ -1,9 +1,3 @@
-<!-- preloader section start -->
-<div id="preloader">
-    <span class="loader"></span>
-</div>
-<!-- preloader section end -->
-
 <!-- header section start -->
 <div class="header fixed-top">
     <a href="#home" class="header-logo">
