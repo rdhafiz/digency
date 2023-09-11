@@ -1,0 +1,20 @@
+/*-----------------------------------------------------------------------------------
+
+	Theme Name: Digency
+	Theme URI: http://
+	Description: The Multi-Purpose One Page Template
+	Author: redishketch
+	Author URI: http://themeforest.net/user/redishketch
+	Version: 1.0
+
+-----------------------------------------------------------------------------------*/
+
+/* ----------------------------------------------------------------
+    [ All Css Plugins ]
+-----------------------------------------------------------------*/
+
+/* == bootstrap == */
+@import url("/plugins/bootstrap.min.css");
+
+/* == animate css == */
+@import url("/plugins/animate.min.css");
