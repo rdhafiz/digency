@@ -16,6 +16,9 @@
 /* == bootstrap == */
 @import url("plugins/bootstrap.min.css");
 
+/* == font awesome == */
+@import url("plugins/fontawesome.min.css");
+
 /* == animate css == */
 @import url("plugins/animate.min.css");
 
