@@ -13,17 +13,8 @@
     [ All Css Plugins ]
 -----------------------------------------------------------------*/
 
-/* == bootstrap == */
-@import url("plugins/bootstrap.min.css");
+/* == jquery == */
+import('/plugins/jquery.min')
 
-/* == font awesome == */
-@import url("plugins/fontawesome.min.css");
-
-/* == animate css == */
-@import url("plugins/animate.min.css");
-
-/* == owl carousel min css == */
-@import url("plugins/owl.carousel.min.css");
-
-/* == owl carousel default min css == */
-@import url("plugins/owl.theme.default.min.css");
+/* == owl carousel == */
+import('/plugins/owl.carousel.min')

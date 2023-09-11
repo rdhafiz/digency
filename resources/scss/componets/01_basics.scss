@@ -1,3 +1,4 @@
+/*color variables start*/
 $black: #000000;
 $white: #ffffff;
 $theme-color: #F51963;
@@ -6,6 +7,34 @@ $border-color: lightgray;
 $linear-gradient-theme: linear-gradient(45deg, #F51963 0%, #FBAE20 100%);
 $background-theme-color: #FAF9FF;
 $water-color: rgba(255, 255, 255, 0.1);
+$text:#eee;
+$black1:#111;
+$theme:#F51963;
+$grayish:#7f7f7f;
+$yellow:#FBAE20;
+$light-bg:#f7f7f7;
+$gray-2: #ccc;
+$gray-3: #bbb;
+$gray-4: #777;
+$gray-5: #999;
+$gray-6: #575454;
+$news-bg: #FAF9FF;
+$dark: #222;
+/*color variables end*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.3;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Rubik', sans-serif;
+}
+
 
 #preloader {
     position: fixed;
@@ -58,4 +87,29 @@ $water-color: rgba(255, 255, 255, 0.1);
             box-shadow: 0 2.5em 0 0
         }
     }
+}
+
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.mb-80 {
+    margin-bottom: 80px;
+}
+
+.sec-wrap {
+    padding: 120px 0;
+}
+
+.sm-title {
+    font-size: 13px;
+    color: $theme;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin-bottom: 5px;
 }

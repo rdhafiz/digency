@@ -1,3 +1,28 @@
+/*sliders*/
+$(document).ready(function () {
+    $(".owl-carousel").owlCarousel();
+});
+
+$('.slider-wrap').owlCarousel({
+    loop: true,
+    autoplay: true,
+    animateOut: 'fadeOut',
+    margin: 10,
+    nav: false,
+    responsive: {
+        0: {
+            items: 1
+        },
+        600: {
+            items: 1
+        },
+        1000: {
+            items: 1
+        }
+    }
+})
+
+
 
 $('.tab-content-change').owlCarousel({
     loop: true,
