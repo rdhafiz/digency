@@ -16,5 +16,8 @@
 /* == jquery == */
 import('/plugins/jquery.min')
 
+/* == bootstrap bundle == */
+import('/plugins/bootstrap.bundle.min')
+
 /* == owl carousel == */
 import('/plugins/owl.carousel.min')
