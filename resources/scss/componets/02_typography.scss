@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
-*{
-    font-family: 'Rubik', sans-serif;
-}
-
 .text-theme {
     color: $theme-color;
 }
 
+.border-theme {
+    border: 1px solid $theme-color;
+}
+
+.border-bottom-theme {
+    border-bottom: 3px solid $theme-color;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}

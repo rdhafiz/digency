@@ -11,16 +11,6 @@ $water-color: rgba(255, 255, 255, 0.1);
 
 // colors variable end
 
-.border-theme {
-    border: 1px solid $theme-color;
-}
-
-.border-bottom-theme {
-    border-bottom: 3px solid $theme-color;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-}
-
 // preloader start
 
 #preloader {
