@@ -1,0 +1,54 @@
+// team start
+
+.team-intro {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+
+}
+
+.team-list {
+
+    .content-show {
+        width: 100%;
+        height: 100%;
+        position: relative;
+
+        &:hover .social-icon {
+            visibility: visible;
+            opacity: 0.8;
+            transition: 0.4s all ease-in-out;
+        }
+
+        .social-icon {
+            transition: 0.4s all ease-in-out;
+            background: $linear-gradient-theme;
+            visibility: hidden;
+            opacity: 0;
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            a {
+                text-decoration: none;
+                color: $white;
+                display: inline-block;
+                margin: 10px;
+            }
+
+        }
+
+    }
+
+}
+
+// team end

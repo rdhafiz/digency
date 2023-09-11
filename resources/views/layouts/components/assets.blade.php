@@ -8,4 +8,4 @@
 <link rel="stylesheet" href="/css/plugin.css" />
 
 <!-- Core Style Css -->
-@vite('resources/css/style.scss')
+@vite('resources/scss/style.scss')

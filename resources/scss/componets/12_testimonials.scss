@@ -1,0 +1,97 @@
+// testimonial start
+
+.testimonials {
+    width: 100%;
+    background-repeat: repeat;
+    background-size: auto;
+    position: relative;
+
+    .testimonial {
+        position: relative;
+
+        .item {
+            height: 450px;
+
+            .quas {
+                position: absolute;
+                bottom: -25px;
+                left: 10px;
+                width: 50px;
+                height: 50px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: $white;
+                color: $theme-color;
+                box-shadow: 0 0 12px 0 $border-color;
+                border-radius: 50%;
+            }
+
+            .customer-image {
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                object-fit: contain;
+                background-color: $border-color;
+                box-shadow: 0 0 12px 0 $border-color;
+            }
+
+        }
+
+
+        &:hover .owl-nav {
+            visibility: visible;
+        }
+
+        .owl-nav {
+            visibility: hidden;
+            position: absolute;
+            top: 0;
+            bottom: 50px;
+            left: 0;
+            right: 0;
+            width: 100%;
+            height: 50%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .owl-prev {
+                width: 50px;
+                height: 50px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: $white;
+                border-radius: 50%;
+                box-shadow: 0 0 8px 0 $border-color;
+
+                span {
+                    color: $theme-color;
+                }
+
+            }
+
+            .owl-next {
+                width: 50px;
+                height: 50px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: $white;
+                border-radius: 50%;
+                box-shadow: 0 0 8px 0 $border-color;
+
+                span {
+                    color: $theme-color;
+                }
+
+            }
+
+        }
+
+    }
+
+}
+
+// testimonial end
