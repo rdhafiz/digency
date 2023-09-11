@@ -10,6 +10,7 @@
 
     @include('layouts.components.assets')
 
+    @include('layouts.components.scripts')
 </head>
 <body>
 

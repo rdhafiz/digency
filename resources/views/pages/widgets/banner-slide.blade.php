@@ -45,7 +45,7 @@
 
         <!--each slider-->
         <div class="slider-item text-center position-relative overlay"
-             style="background-image: url({{asset('./images/home/bg1.jpg')}})">
+             style="background-image: url({{asset('./images/home/bg3.jpg')}})">
             <div class="slider-content">
                 <div class="overflow-hidden d-inline-block">
                     <div class="row">
@@ -68,7 +68,6 @@
 </div>
 <!--home-slider end  -->
 
-<script src="{{asset('./js/plugins/owl.carousel.min.js')}}"></script>
-<script src="{{asset('./js/homepage/banner.js')}}"></script>
+
 
 

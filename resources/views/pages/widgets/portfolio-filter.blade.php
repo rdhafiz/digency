@@ -250,4 +250,4 @@
 </section>
 <!--portfolio section end  -->
 
-<script src="{{asset('./js/plugins/bootstrap.bundle.min.js')}}"></script>
+

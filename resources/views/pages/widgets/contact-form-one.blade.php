@@ -12,11 +12,11 @@
                     <div class="row">
                         <div class="col-lg-5">
                             <div class="form-group mb-3">
-                                <input type="text" class="form-control" placeholder="Name *">
+                                <input type="text" class="form-control" placeholder="Name *" required>
                             </div>
 
                             <div class="form-group mb-3">
-                                <input type="email" class="form-control" placeholder="Email *">
+                                <input type="email" class="form-control" placeholder="Email *" required>
                             </div>
 
                             <div class="form-group mb-3">
@@ -25,7 +25,7 @@
                         </div>
                         <div class="col-lg-7">
                             <div class="form-group">
-                                <textarea class="form-control" placeholder="Your Message*" name="" id="" cols="30"
+                                <textarea class="form-control" placeholder="Your Message*" name="" id="" cols="30" required
                                           rows="8"></textarea>
                             </div>
                         </div>

@@ -181,4 +181,4 @@
 <!--number section end  -->
 
 
-<script src="{{asset('./js/homepage/counter.js')}}"></script>
+

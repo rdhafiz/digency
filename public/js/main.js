@@ -1,10 +1,10 @@
-// preloader controller
-setTimeout(() => {
-    const preloader = document.getElementById('preloader');
-    setTimeout(() => {
-        document.body.removeChild(preloader)
-    }, 2000)
-}, 3000);
+/*page preloader*/
+function PreLoader(){
+    setTimeout(()=>{
+        $('.page-loader').addClass('d-none')
+    },1000)
+}
+
 
 
 // header scroll maintain

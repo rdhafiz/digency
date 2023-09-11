@@ -69,7 +69,3 @@
 </section>
 <!--contact info section end  -->
 
-
-
-<script src="{{asset('./js/plugins/owl.carousel.min.js')}}"></script>
-<script src="{{asset('./js/homepage/clients.js')}}"></script>
