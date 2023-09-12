@@ -156,7 +156,7 @@
                 <div class="each-num-wrap text-center">
                     <div class="icon"><i class="fa-solid fa-layer-group"></i></div>
                     <h4 class="num num-2">0</h4>
-                    <h6 class="num-title">Projects Compleated</h6>
+                    <h6 class="num-title">Projects Completed</h6>
                 </div>
             </div>
 

@@ -16,7 +16,7 @@
                 content: '';
                 width: 70px;
                 height: 1px;
-                background: $theme;
+                background: $theme-color;
                 position: absolute;
                 bottom: 0;
                 left: calc(50% - 35px);
@@ -52,12 +52,12 @@
             border: 1px dashed #ddd;
             margin-bottom: 30px;
             transition: all .4s;
-            background: linear-gradient(45deg, $theme 0%, $yellow 100%);
+            background: linear-gradient(45deg, $theme-color 0%, $yellow 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             &:hover{
                 transition: all .4s;
-                background: $theme;
+                background: $theme-color;
                 color: #fff;
                 border-style: solid;
                 -webkit-text-fill-color: inherit;
@@ -163,7 +163,7 @@
         z-index: 2;
         .icon{
             font-size: 35px;
-            color: $theme;
+            color: $theme-color;
             margin-bottom: 30px;
         }
         .num{
