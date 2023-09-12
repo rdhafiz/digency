@@ -23,7 +23,7 @@
         <a href="#portfolio" class="header-link" onclick="btnController()">
             Portfolio
         </a>
-        <a href="#price" class="header-link" onclick="btnController()">
+        <a href="#pricing" class="header-link" onclick="btnController()">
             Price
         </a>
         <a href="#blog" class="header-link" onclick="btnController()">
