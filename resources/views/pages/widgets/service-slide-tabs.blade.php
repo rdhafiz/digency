@@ -9,43 +9,43 @@
     </div>
     <div class="container tab-content-change owl-carousel owl-theme tab" id="myTab" role="tablist">
         <span role="presentation">
-            <a href="javascript:void(0)" class="box-btn" id="webDesign-tab" data-bs-toggle="tab" data-bs-target="#webDesign-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">
-                <div class="mb-3"> <i class="fas fa-desktop text-theme"></i> </div>
+            <a href="javascript:void(0)" class="box-btn active" id="webDesign-tab" data-bs-toggle="tab" data-bs-target="#webDesign-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="false">
+                <div class="mb-3 icon-size"> <i class="fas fa-desktop text-theme"></i> </div>
                 <div class="fw-bold">Web Design</div>
             </a>
         </span>
 
         <span role="presentation">
-            <a href="javascript:void(0)" class="box-btn" id="development-tab" data-bs-toggle="tab" data-bs-target="#development-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">
-                <div class="mb-3"> <i class="fas fa-shield text-theme"></i> </div>
+            <a href="javascript:void(0)" class="box-btn" id="development-tab" data-bs-toggle="tab" data-bs-target="#development-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="false">
+                <div class="mb-3 icon-size"> <i class="fas fa-shield text-theme"></i> </div>
                 <div class="fw-bold">Development</div>
             </a>
         </span>
 
         <span role="presentation">
-            <a href="javascript:void(0)" class="box-btn" id="branding-tab" data-bs-toggle="tab" data-bs-target="#branding-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">
-                <div class="mb-3"> <i class="fa-brands fa-meta text-theme"></i> </div>
+            <a href="javascript:void(0)" class="box-btn" id="branding-tab" data-bs-toggle="tab" data-bs-target="#branding-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="false">
+                <div class="mb-3 icon-size"> <i class="fa-brands fa-meta text-theme"></i> </div>
                 <div class="fw-bold">Branding</div>
             </a>
         </span>
 
         <span role="presentation">
-            <a href="javascript:void(0)" class="box-btn" id="graphicDesign-tab" data-bs-toggle="tab" data-bs-target="#graphicDesign-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">
-                <div class="mb-3"> <i class="fas fa-palette text-theme"></i> </div>
+            <a href="javascript:void(0)" class="box-btn" id="graphicDesign-tab" data-bs-toggle="tab" data-bs-target="#graphicDesign-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="false">
+                <div class="mb-3 icon-size"> <i class="fas fa-palette text-theme"></i> </div>
                 <div class="fw-bold">Graphic Design</div>
             </a>
         </span>
 
         <span role="presentation">
-            <a href="javascript:void(0)" class="box-btn" id="marketing-tab" data-bs-toggle="tab" data-bs-target="#marketing-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">
-                <div class="mb-3"> <i class="fas fa-chart-line text-theme"></i> </div>
+            <a href="javascript:void(0)" class="box-btn" id="marketing-tab" data-bs-toggle="tab" data-bs-target="#marketing-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="false">
+                <div class="mb-3 icon-size"> <i class="fas fa-chart-line text-theme"></i> </div>
                 <div class="fw-bold">Marketing</div>
             </a>
         </span>
 
     </div>
     <div class="container position-relative tab-content" id="myTabContent">
-        <div class="tab-pane fade show active" id="webDesign-tab-pane" role="tabpanel" aria-labelledby="webDesign-tab" tabindex="0">
+        <div class="tab-pane show active" id="webDesign-tab-pane" role="tabpanel" aria-labelledby="webDesign-tab" tabindex="0">
             <div class="row">
                 <div class="col-md-6 text-md-end">
                     <div class="text-theme my-3">
@@ -61,7 +61,7 @@
                 </div>
             </div>
         </div>
-        <div class="tab-pane fade" id="development-tab-pane" role="tabpanel" aria-labelledby="development-tab" tabindex="0">
+        <div class="tab-pane" id="development-tab-pane" role="tabpanel" aria-labelledby="development-tab" tabindex="0">
             <div class="row">
                 <div class="col-md-6 text-md-end">
                     <div class="text-theme my-3">
@@ -77,7 +77,7 @@
                 </div>
             </div>
         </div>
-        <div class="tab-pane fade" id="branding-tab-pane" role="tabpanel" aria-labelledby="branding-tab" tabindex="0">
+        <div class="tab-pane" id="branding-tab-pane" role="tabpanel" aria-labelledby="branding-tab" tabindex="0">
             <div class="row">
                 <div class="col-md-6 text-md-end">
                     <div class="text-theme my-3">
@@ -93,7 +93,7 @@
                 </div>
             </div>
         </div>
-        <div class="tab-pane fade" id="graphicDesign-tab-pane" role="tabpanel" aria-labelledby="graphicDesign-tab" tabindex="0">
+        <div class="tab-pane" id="graphicDesign-tab-pane" role="tabpanel" aria-labelledby="graphicDesign-tab" tabindex="0">
             <div class="row">
                 <div class="col-md-6 text-md-end">
                     <div class="text-theme my-3">
@@ -109,7 +109,7 @@
                 </div>
             </div>
         </div>
-        <div class="tab-pane fade" id="marketing-tab-pane" role="tabpanel" aria-labelledby="marketing-tab" tabindex="0">
+        <div class="tab-pane" id="marketing-tab-pane" role="tabpanel" aria-labelledby="marketing-tab" tabindex="0">
             <div class="row">
                 <div class="col-md-6 text-md-end">
                     <div class="text-theme my-3">

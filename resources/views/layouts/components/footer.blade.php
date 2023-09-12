@@ -22,7 +22,7 @@
             </a>
         </div>
         <div class="text-center text-opacity-50 text-secondary pt-4 pb-3">
-            © 2018 UI-THEMEZ. ALL RIGHTS RESERVED.
+            © 2023 REDISHKETCH. ALL RIGHTS RESERVED.
         </div>
     </div>
 </div>

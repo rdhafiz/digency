@@ -7,7 +7,7 @@ function PreLoader(){
 
 
 let header = $(".header");
-let scrollChange = 1;
+let scrollChange = 10;
 $(window).scroll(function () {
     let scroll = $(window).scrollTop();
     if (scroll >= scrollChange) {
