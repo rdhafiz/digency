@@ -14,7 +14,16 @@
 -----------------------------------------------------------------*/
 
 /* == bootstrap == */
-@import url("/plugins/bootstrap.min.css");
+@import url("plugins/bootstrap.min.css");
+
+/* == font awesome == */
+@import url("plugins/fontawesome.min.css");
 
 /* == animate css == */
-@import url("/plugins/animate.min.css");
+@import url("plugins/animate.min.css");
+
+/* == owl carousel css == */
+@import url("plugins/owl.carousel.min.css");
+
+/* == owl carousel default css == */
+@import url("plugins/owl.theme.default.min.css");

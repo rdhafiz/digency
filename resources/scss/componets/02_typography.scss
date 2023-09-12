@@ -1,0 +1,13 @@
+.text-theme {
+    color: $theme-color;
+}
+
+.border-theme {
+    border: 1px solid $theme-color;
+}
+
+.border-bottom-theme {
+    border-bottom: 3px solid $theme-color;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}

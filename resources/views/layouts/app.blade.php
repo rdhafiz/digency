@@ -10,9 +10,14 @@
 
     @include('layouts.components.assets')
 
-
 </head>
 <body>
+
+<!-- preloader section start -->
+<div id="preloader">
+    <span class="loader"></span>
+</div>
+<!-- preloader section end -->
 
 @include('layouts.components.header')
 
