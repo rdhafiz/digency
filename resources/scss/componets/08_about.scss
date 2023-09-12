@@ -1,0 +1,183 @@
+/*about welcome section start*/
+
+.about-section {
+    .about-top-text {
+        .top-title {
+            font-weight: 300;
+            margin-bottom: 10px;
+        }
+
+        .main-title {
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            position: relative;
+
+            &:after {
+                content: '';
+                width: 70px;
+                height: 1px;
+                background: $theme;
+                position: absolute;
+                bottom: 0;
+                left: calc(50% - 35px);
+            }
+        }
+
+        .desc {
+            width: 90%;
+            margin: auto;
+            font-size: 15px;
+            font-weight: 400;
+            font-family: 'Khula', sans-serif;
+            color: $grayish;
+            line-height: 2;
+        }
+    }
+
+
+    .about-item {
+
+        text-align: center;
+        @media screen and (max-width: 991px) {
+            margin-bottom: 50px;
+        }
+
+        .icon-wrap {
+            font-size: 35px;
+            width: 80px;
+            height: 80px;
+            display: inline-block;
+            line-height: 80px;
+            border-radius: 50%;
+            border: 1px dashed #ddd;
+            margin-bottom: 30px;
+            transition: all .4s;
+            background: linear-gradient(45deg, $theme 0%, $yellow 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            &:hover{
+                transition: all .4s;
+                background: $theme;
+                color: #fff;
+                border-style: solid;
+                -webkit-text-fill-color: inherit;
+            }
+        }
+        .item-title{
+            margin-bottom: 15px;
+            font-weight: 500;
+            font-size: 18px;
+        }
+        .item-desc{
+            font-size: 15px;
+            font-weight: 400;
+            font-family: 'Khula', sans-serif;
+            color: $grayish;
+            line-height: 2;
+            margin: 0;
+        }
+    }
+}
+
+/*about welcome section end  */
+
+
+/*about agency start*/
+.intro-section {
+    box-shadow: 0px 0px 200px rgba(0, 0, 0, 0.05) inset;
+    background-size: auto;
+    background-repeat: repeat;
+
+    .intro-img {
+        position: relative;
+        margin-top: -170px;
+        padding-right: 50px;
+
+        img {
+            border: 10px solid $white;
+            box-shadow: 0px 10px 40px -4px rgba(0, 0, 0, 0.1);
+        }
+
+        .absolute-vid-btn{
+            position: absolute;
+            right: 20px;
+            bottom: 50px;
+        }
+    }
+
+    .intro-content{
+        .intro-title{
+            margin-bottom: 15px;
+            font-weight: 600;
+            font-size: 40px;
+            line-height: 1.2;
+            @media screen and (max-width: 767px) {
+                font-size: 25px;
+            }
+        }
+        .desc{
+            font-size: 15px;
+            font-weight: 400;
+            font-family: 'Khula', sans-serif;
+            color: $grayish;
+            line-height: 2;
+            margin: 0;
+        }
+
+        .skills{
+            margin-top: 50px;
+            .each-skill{
+                .skill-title{
+                    font-size: 14px;
+                    margin-bottom: 10px;
+                    span{
+                        display: inline-block;
+                        text-decoration: none;
+                        color: inherit;
+                        float: right;
+                        font-size: 12px;
+                    }
+                }
+
+
+            }
+        }
+    }
+}
+/*about agency end  */
+
+
+
+/*numbers start*/
+.number-section{
+    padding: 80px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    .each-num-wrap{
+        @media screen and (max-width: 991px) {
+            margin-bottom: 50px;
+        }
+        position: relative;
+        z-index: 2;
+        .icon{
+            font-size: 35px;
+            color: $theme;
+            margin-bottom: 30px;
+        }
+        .num{
+            font-size: 40px;
+            font-weight: 800;
+            margin-bottom: 30px;
+            color: $white;
+        }
+        .num-title{
+            font-weight: 300;
+            font-size: 18px;
+            margin: 0;
+            color: $white;
+        }
+    }
+}
+/*numbers end  */

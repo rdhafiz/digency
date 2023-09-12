@@ -123,7 +123,7 @@
             margin: 0 5px;
             font-size: 13px;
             transition: 0.3s all ease-in-out;
-            font-weight: 300;
+            font-weight: 500;
 
             @media screen and (max-width: 991px) {
                 display: block;
@@ -136,7 +136,6 @@
             }
 
             &.active {
-                font-weight: normal;
                 color: $theme-color;
             }
 

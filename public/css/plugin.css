@@ -22,8 +22,11 @@
 /* == animate css == */
 @import url("plugins/animate.min.css");
 
-/* == owl carousel css == */
+/* == owl carousel min css == */
 @import url("plugins/owl.carousel.min.css");
 
-/* == owl carousel default css == */
+/* == owl carousel default min css == */
 @import url("plugins/owl.theme.default.min.css");
+
+
+
