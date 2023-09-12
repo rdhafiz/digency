@@ -10,15 +10,21 @@
 
     @include('layouts.components.assets')
 
-    @include('layouts.components.scripts')
 </head>
 <body>
 
-<!-- preloader section start -->
-<div id="preloader">
-    <span class="loader"></span>
+<!--page loader-->
+<div class="page-loader">
+    <div class="middle">
+        <div class="anim">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
 </div>
-<!-- preloader section end -->
+<!--page loader-->
 
 @include('layouts.components.header')
 

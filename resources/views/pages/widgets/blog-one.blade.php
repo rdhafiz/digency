@@ -21,9 +21,9 @@
                         48 Best Wordpress Themes on Enovato
                     </div>
                     <div class="d-flex justify-content-start flex-wrap mt-2">
-                        <a href="javascript:void(0)">WordPress</a>
-                        <a href="javascript:void(0)">ThemeForest</a>
-                        <a href="javascript:void(0)">Arrow</a>
+                        <a href="javascript:void(0)" class="blog-link">WordPress</a>
+                        <a href="javascript:void(0)" class="blog-link">ThemeForest</a>
+                        <a href="javascript:void(0)" class="blog-link">Arrow</a>
                     </div>
                     <div class="text-end">
                         <a href="javascript:void(0)" class="read-me btn-outline-theme">Read Me</a>
@@ -43,9 +43,9 @@
                         48 Best Wordpress Themes on Enovato
                     </div>
                     <div class="d-flex justify-content-start flex-wrap mt-2">
-                        <a href="javascript:void(0)">WordPress</a>
-                        <a href="javascript:void(0)">ThemeForest</a>
-                        <a href="javascript:void(0)">Arrow</a>
+                        <a href="javascript:void(0)" class="blog-link">WordPress</a>
+                        <a href="javascript:void(0)" class="blog-link">ThemeForest</a>
+                        <a href="javascript:void(0)" class="blog-link">Arrow</a>
                     </div>
                     <div class="text-end">
                         <a href="javascript:void(0)" class="read-me btn-outline-theme">Read Me</a>
@@ -65,9 +65,9 @@
                         48 Best Wordpress Themes on Enovato
                     </div>
                     <div class="d-flex justify-content-start flex-wrap mt-2">
-                        <a href="javascript:void(0)">WordPress</a>
-                        <a href="javascript:void(0)">ThemeForest</a>
-                        <a href="javascript:void(0)">Arrow</a>
+                        <a href="javascript:void(0)" class="blog-link">WordPress</a>
+                        <a href="javascript:void(0)" class="blog-link">ThemeForest</a>
+                        <a href="javascript:void(0)" class="blog-link">Arrow</a>
                     </div>
                     <div class="text-end">
                         <a href="javascript:void(0)" class="read-me btn-outline-theme">Read Me</a>

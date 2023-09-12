@@ -18,10 +18,11 @@
 
     @include('pages/widgets/team-one')
 
+    @include('pages/widgets/blog-one')
+
     @include('pages.widgets.contact-form-one')
 
     @include('pages.widgets.contact-one')
 
 @endsection
 
-<script src="{{asset('./js/homepage/preloader.js')}}"></script>
