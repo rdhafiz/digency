@@ -16,7 +16,7 @@
             text-align: center;
             height: 40px;
             line-height: 40px;
-            background: linear-gradient(45deg, $theme 0%, $yellow 100%);
+            background: linear-gradient(45deg, $theme-color 0%, $yellow 100%);
             color: $white;
             top: -20px;
             left: 10%;
@@ -51,7 +51,7 @@
                 left: 0;
 
                 &:before {
-                    border-bottom: 20px solid #c00f4a;
+                    border-bottom: 20px solid $popular-sec-pink;
                     border-right: 11px solid transparent;
                     left: 0;
                     content: '';
@@ -64,7 +64,7 @@
                 }
 
                 &:after {
-                    border-bottom: 20px solid #d6961e;
+                    border-bottom: 20px solid $popular-sec-yellow;
                     border-left: 11px solid transparent;
                     right: 0;
                     content: '';
@@ -118,7 +118,7 @@
             .sub-time {
                 font-size: 13px;
                 margin-top: 5px;
-                color: $theme;
+                color: $theme-color;
 
             }
         }

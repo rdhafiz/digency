@@ -65,13 +65,13 @@
             }
             &.active {
                 span {
-                    background: $theme !important;
+                    background: $theme-color !important;
                 }
             }
 
             &:hover {
                 span {
-                    background: $theme !important;
+                    background: $theme-color !important;
                 }
             }
         }

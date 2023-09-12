@@ -11,25 +11,25 @@
         <a href="javascript:void(0)" class="close-btn" onclick="btnController()">
             <i class="fa-solid fa-x"></i>
         </a>
-        <a href="#home" class="link active" onclick="btnController()">
+        <a href="#home" class="header-link active" onclick="btnController()">
             Home
         </a>
-        <a href="#about" class="link" onclick="btnController()">
+        <a href="#about" class="header-link" onclick="btnController()">
             About
         </a>
-        <a href="#service" class="link" onclick="btnController()">
+        <a href="#service" class="header-link" onclick="btnController()">
             Services
         </a>
-        <a href="#portfolio" class="link" onclick="btnController()">
+        <a href="#portfolio" class="header-link" onclick="btnController()">
             Portfolio
         </a>
-        <a href="#price" class="link" onclick="btnController()">
+        <a href="#price" class="header-link" onclick="btnController()">
             Price
         </a>
-        <a href="#blog" class="link" onclick="btnController()">
+        <a href="#blog" class="header-link" onclick="btnController()">
             Blog
         </a>
-        <a href="#contact" class="link" onclick="btnController()">
+        <a href="#contact" class="header-link" onclick="btnController()">
             Contact
         </a>
     </div>
