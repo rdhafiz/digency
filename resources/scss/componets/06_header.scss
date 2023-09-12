@@ -13,8 +13,10 @@
 
     &.header-scrolled {
         background-color: $white;
-        transition: 0.5s all ease-in-out;
+        transition: transform .5s ;
         box-shadow: 0 0 8px 0 $border-color;
+        top: -100px;
+        transform: translateY(100px);
 
         .header-logo {
 
