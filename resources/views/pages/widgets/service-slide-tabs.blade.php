@@ -7,7 +7,7 @@
     <div class="d-flex justify-content-center align-items-center position-relative mb-5">
         <hr class="col-1 border-theme">
     </div>
-    <div class="container btn-hence owl-carousel owl-theme tab" id="myTab" role="tablist">
+    <div class="container tab-content-change owl-carousel owl-theme tab" id="myTab" role="tablist">
         <span role="presentation">
             <a href="javascript:void(0)" class="box-btn" id="webDesign-tab" data-bs-toggle="tab" data-bs-target="#webDesign-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">
                 <div class="mb-3"> <i class="fas fa-desktop text-theme"></i> </div>

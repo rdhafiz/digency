@@ -7,7 +7,7 @@
         <hr class="col-1 border-theme">
     </div>
     <div class="container">
-        <div class="testimonial owl-carousel owl-theme">
+        <div class="testimonial customer-feedback owl-carousel owl-theme">
             <div class="item">
                 <div class="bg-white py-5 px-4 shadow position-relative">
                     Lorem Ipsum is simply dummy text of the printing and type setting industry when an unknown printer took a galley.

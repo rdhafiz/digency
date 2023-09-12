@@ -1,6 +1,5 @@
-// btn-hence working on service button carousel
 
-$('.btn-hence').owlCarousel({
+$('.tab-content-change').owlCarousel({
     loop: true,
     margin: 0,
     nav: false,
@@ -13,9 +12,7 @@ $('.btn-hence').owlCarousel({
     }
 });
 
-// testimonial carousel
-
-$('.testimonial').owlCarousel({
+$('.customer-feedback').owlCarousel({
     loop: true,
     margin: 20,
     nav: true,
