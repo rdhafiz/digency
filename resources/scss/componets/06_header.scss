@@ -30,6 +30,16 @@
 
         }
 
+        .controller-icon{
+            color: $black;
+
+            &:hover {
+                transition: 0.3s all ease-in-out;
+                box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+            }
+
+        }
+
         .header-menu {
 
             .header-link {
@@ -60,14 +70,22 @@
         display: none;
 
         @media screen and (max-width: 991px) {
-            display: inline-block;
-            padding: 10px 20px;
+            padding: 15px;
             border-radius: 10px;
-            color: $black;
+            color: $white;
             transition: 0.3s all ease-in-out;
+            font-size: 20px;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+
 
             &:hover {
-                background-color: $white;
+                transition: 0.3s all ease-in-out;
+                box-shadow: 0 0 5px rgba(255, 255, 255, .5);
             }
 
         }
@@ -101,13 +119,16 @@
         .close-btn {
             display: none;
 
+
             @media screen and (max-width: 991px) {
                 display: inline-block;
                 padding: 5px 10px;
                 margin-bottom: 30px;
                 color: $black;
+                transition: 0.3s all ease-in-out;
 
                 &:hover {
+                    transition: 0.3s all ease-in-out;
                     border-radius: 4px;
                     color: $white;
                     background-color: $theme-color;

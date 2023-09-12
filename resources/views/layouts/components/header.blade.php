@@ -5,7 +5,7 @@
         <img src="{{asset('images/home/logo-dark.png')}}" class="img-fluid logo-2" alt="">
     </a>
     <a href="javascript:void(0)" class="controller-icon" onclick="btnController()">
-        <i class="fa-solid fa-align-justify"></i>
+        <i class="fa-solid fa-bars"></i>
     </a>
     <div class="header-menu">
         <a href="javascript:void(0)" class="close-btn" onclick="btnController()">
