@@ -70,12 +70,12 @@
                     width: 100%;
                     text-align: center;
 
-                    a {
+                    .info-link {
                         text-decoration: none;
                         display: inline-block;
                         color: $white;
 
-                        p {
+                        .sub-title {
                             color: $white;
                             font-weight: 400;
                             font-size: 13px;
@@ -92,7 +92,7 @@
                             }
                         }
 
-                        h6{
+                        .title{
                             color: $white;
                             font-weight: 700;
                             font-size: 16px;

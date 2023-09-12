@@ -2,12 +2,12 @@
 
 .about-section {
     .about-top-text {
-        h5 {
+        .top-title {
             font-weight: 300;
             margin-bottom: 10px;
         }
 
-        h3 {
+        .main-title {
             margin-bottom: 20px;
             padding-bottom: 20px;
             position: relative;
@@ -23,7 +23,7 @@
             }
         }
 
-        p {
+        .desc {
             width: 90%;
             margin: auto;
             font-size: 15px;
@@ -63,12 +63,12 @@
                 -webkit-text-fill-color: inherit;
             }
         }
-        h6{
+        .item-title{
             margin-bottom: 15px;
             font-weight: 500;
             font-size: 18px;
         }
-        p{
+        .item-desc{
             font-size: 15px;
             font-weight: 400;
             font-family: 'Khula', sans-serif;
@@ -98,7 +98,7 @@
             box-shadow: 0px 10px 40px -4px rgba(0, 0, 0, 0.1);
         }
 
-        .vid-btn{
+        .absolute-vid-btn{
             position: absolute;
             right: 20px;
             bottom: 50px;
@@ -127,7 +127,7 @@
         .skills{
             margin-top: 50px;
             .each-skill{
-                h5{
+                .skill-title{
                     font-size: 14px;
                     margin-bottom: 10px;
                     span{
@@ -146,52 +146,6 @@
 }
 /*about agency end  */
 
-
-/*about service start*/
-.service-section {
-    .each-service {
-        margin-bottom: 50px;
-
-        .icon {
-            font-size: 40px;
-            background: linear-gradient(45deg, $theme 0%, $yellow 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            float: left;
-        }
-
-        .service-title {
-            margin-left: 70px;
-            padding-bottom: 20px;
-            margin-bottom: 20px;
-            position: relative;
-            font-weight: 500;
-
-            &:after {
-                content: '';
-                width: 40px;
-                height: 1px;
-                background: $gray-2;
-                position: absolute;
-                left: 0;
-                bottom: 0;
-            }
-
-        }
-
-        .service-desc {
-            margin-left: 70px;
-            font-size: 14px;
-            font-family: 'Khula', sans-serif;
-            color: $grayish;
-            line-height: 2;
-            margin-bottom: 0;
-            word-break: break-word;
-            width: 65%;
-        }
-    }
-}
-/*about service end  */
 
 
 /*numbers start*/

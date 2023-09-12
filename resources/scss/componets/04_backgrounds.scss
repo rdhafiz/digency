@@ -1,8 +1,4 @@
-.background-theme-color{
-    background-color: $background-theme-color !important;
-}
-
-.overlay {
+.bg-dark-overlay {
     position: relative;
 
     &:before {
@@ -17,4 +13,9 @@
         z-index: 1;
     }
 
+}
+
+
+.background-theme-color{
+    background-color: $background-theme-color !important;
 }

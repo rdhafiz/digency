@@ -84,7 +84,7 @@
             border-bottom: 1px solid $text;
             position: relative;
 
-            h6 {
+            .type-title {
                 font-size: 20px;
                 font-weight: 500;
             }
@@ -106,16 +106,16 @@
         .price {
             margin: 30px 0;
 
-            h4 {
+            .price-title {
                 font-size: 55px;
                 font-weight: 500;
 
-                span {
+                .dollar-sign {
                     font-size: 15px;
                 }
             }
 
-            p {
+            .sub-time {
                 font-size: 13px;
                 margin-top: 5px;
                 color: $theme;

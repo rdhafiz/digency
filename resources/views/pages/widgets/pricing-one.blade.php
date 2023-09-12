@@ -12,12 +12,12 @@
                 <div class="price-box">
                     <div class="price-content">
                         <div class="type">
-                            <h6>Basic</h6>
+                            <h6 class="type-title">Basic</h6>
                         </div>
 
                         <div class="price">
-                            <h4>10<span>$</span></h4>
-                            <p>Per Month</p>
+                            <h4 class="price-title">10<span class="dollar-sign">$</span></h4>
+                            <p class="sub-time">Per Month</p>
                         </div>
 
                         <ul class="offer list-unstyled m-0">
@@ -42,12 +42,12 @@
                     </span>
                     <div class="price-content">
                         <div class="type">
-                            <h6>Business</h6>
+                            <h6 class="type-title">Business</h6>
                         </div>
 
                         <div class="price">
-                            <h4>25<span>$</span></h4>
-                            <p>Per Month</p>
+                            <h4 class="price-title">25<span class="dollar-sign">$</span></h4>
+                            <p class="sub-time">Per Month</p>
                         </div>
 
                         <ul class="offer list-unstyled m-0">
@@ -69,12 +69,12 @@
 
                     <div class="price-content">
                         <div class="type">
-                            <h6>Premium</h6>
+                            <h6 class="type-title">Premium</h6>
                         </div>
 
                         <div class="price">
-                            <h4>50<span>$</span></h4>
-                            <p>Per Month</p>
+                            <h4 class="price-title">50<span class="dollar-sign">$</span></h4>
+                            <p class="sub-time">Per Month</p>
                         </div>
 
                         <ul class="offer list-unstyled m-0">

@@ -11,14 +11,14 @@
             .about {
                 margin-bottom: 50px;
 
-                h3 {
+                .title {
                     font-size: 25px;
                     font-weight: 700;
                     margin-bottom: 15px;
                     color: $white;
                 }
 
-                p {
+                .desc {
                     font-size: 15px;
                     font-weight: 400;
                     font-family: 'Khula', sans-serif;
@@ -29,14 +29,14 @@
             }
 
             .item{
-                i{
+                .icon{
                     float: left;
                     font-size: 20px;
                     color:$theme;
                 }
                 .content{
                     margin-left: 40px;
-                    p{
+                    .item-desc{
                         display: inline-block;
                         font-size: 14px;
                         color: $gray-3;

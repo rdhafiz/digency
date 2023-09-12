@@ -44,9 +44,9 @@
                                     <img src="{{asset('./images/home/port1.jpg')}}" alt="">
                                     <div class="img-overlay">
                                         <div class="overlay-info">
-                                            <a href="javascript:void(0)">
-                                                <p>Logo & Branding</p>
-                                                <h6>Creative Design</h6>
+                                            <a href="javascript:void(0)" class="info-link">
+                                                <p class="sub-title">Logo & Branding</p>
+                                                <h6 class="title">Creative Design</h6>
                                             </a>
 
                                             <a href="./images/home/port1.jpg" class="pop-img" target="_blank">
@@ -62,9 +62,9 @@
                                     <img src="{{asset('./images/home/port2.jpg')}}" alt="">
                                     <div class="img-overlay">
                                         <div class="overlay-info">
-                                            <a href="javascript:void(0)">
-                                                <p>Logo & Branding</p>
-                                                <h6>Creative Design</h6>
+                                            <a href="javascript:void(0)" class="info-link">
+                                                <p class="sub-title">Logo & Branding</p>
+                                                <h6 class="title">Creative Design</h6>
                                             </a>
 
                                             <a href="./images//home/port2.jpg" class="pop-img" target="_blank">
@@ -80,9 +80,9 @@
                                     <img src="{{asset('./images/home/port3.jpg')}}" alt="">
                                     <div class="img-overlay">
                                         <div class="overlay-info">
-                                            <a href="javascript:void(0)">
-                                                <p>Logo & Branding</p>
-                                                <h6>Creative Design</h6>
+                                            <a href="javascript:void(0)" class="info-link">
+                                                <p class="sub-title">Logo & Branding</p>
+                                                <h6 class="title">Creative Design</h6>
                                             </a>
 
                                             <a href="./images/home/port3.jpg" class="pop-img" target="_blank">
@@ -98,9 +98,9 @@
                                     <img src="{{asset('./images/home/port4.jpg')}}" alt="">
                                     <div class="img-overlay">
                                         <div class="overlay-info">
-                                            <a href="javascript:void(0)">
-                                                <p>Logo & Branding</p>
-                                                <h6>Creative Design</h6>
+                                            <a href="javascript:void(0)" class="info-link">
+                                                <p class="sub-title">Logo & Branding</p>
+                                                <h6 class="title">Creative Design</h6>
                                             </a>
 
                                             <a href="./images/home/port4.jpg" class="pop-img" target="_blank">
@@ -116,9 +116,9 @@
                                     <img src="{{asset('./images/home/port4.jpg')}}" alt="">
                                     <div class="img-overlay">
                                         <div class="overlay-info">
-                                            <a href="javascript:void(0)">
-                                                <p>Logo & Branding</p>
-                                                <h6>Creative Design</h6>
+                                            <a href="javascript:void(0)" class="info-link">
+                                                <p class="sub-title">Logo & Branding</p>
+                                                <h6 class="title">Creative Design</h6>
                                             </a>
 
                                             <a href="./images/home/port4.jpg" class="pop-img">
@@ -141,9 +141,9 @@
                                     <img src="{{asset('./images/home/port5.jpg')}}" alt="">
                                     <div class="img-overlay">
                                         <div class="overlay-info">
-                                            <a href="javascript:void(0)">
-                                                <p>Logo & Branding</p>
-                                                <h6>Creative Design</h6>
+                                            <a href="javascript:void(0)" class="info-link">
+                                                <p class="sub-title">Logo & Branding</p>
+                                                <h6 class="title">Creative Design</h6>
                                             </a>
 
                                             <a href="./images/home/port5.jpg" class="pop-img" target="_blank">
@@ -167,9 +167,9 @@
                                     <img src="{{asset('./images/home/port1.jpg')}}" alt="">
                                     <div class="img-overlay">
                                         <div class="overlay-info">
-                                            <a href="javascript:void(0)">
-                                                <p>Logo & Branding</p>
-                                                <h6>Creative Design</h6>
+                                            <a href="javascript:void(0)" class="info-link">
+                                                <p class="sub-title">Logo & Branding</p>
+                                                <h6 class="title">Creative Design</h6>
                                             </a>
 
                                             <a href="./images/home/port1.jpg" class="pop-img" target="_blank">
@@ -185,9 +185,9 @@
                                     <img src="{{asset('./images/home/port2.jpg')}}" alt="">
                                     <div class="img-overlay">
                                         <div class="overlay-info">
-                                            <a href="javascript:void(0)">
-                                                <p>Logo & Branding</p>
-                                                <h6>Creative Design</h6>
+                                            <a href="javascript:void(0)" class="info-link">
+                                                <p class="sub-title">Logo & Branding</p>
+                                                <h6 class="title">Creative Design</h6>
                                             </a>
 
                                             <a href="./images/home/port1.jpg" class="pop-img" target="_blank">
@@ -210,9 +210,9 @@
                                     <img src="{{asset('./images/home/port3.jpg')}}" alt="">
                                     <div class="img-overlay">
                                         <div class="overlay-info">
-                                            <a href="javascript:void(0)">
-                                                <p>Logo & Branding</p>
-                                                <h6>Creative Design</h6>
+                                            <a href="javascript:void(0)" class="info-link">
+                                                <p class="sub-title">Logo & Branding</p>
+                                                <h6 class="title">Creative Design</h6>
                                             </a>
 
                                             <a href="./images/home/port3.jpg" class="pop-img" target="_blank">
@@ -228,9 +228,9 @@
                                     <img src="{{asset('./images/home/port4.jpg')}}" alt="">
                                     <div class="img-overlay">
                                         <div class="overlay-info">
-                                            <a href="javascript:void(0)">
-                                                <p>Logo & Branding</p>
-                                                <h6>Creative Design</h6>
+                                            <a href="javascript:void(0)" class="info-link">
+                                                <p class="sub-title">Logo & Branding</p>
+                                                <h6 class="title">Creative Design</h6>
                                             </a>
 
                                             <a href="./images/home/port4.jpg" class="pop-img" target="_blank">

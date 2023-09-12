@@ -6,7 +6,7 @@
             <div class="col-lg-6">
                 <div class="intro-img">
                     <img class="img-fluid" src="{{asset('images/home/about-agency.jpg')}}" alt="about agency">
-                    <a href="javascript:void(0)" class="vid-btn">
+                    <a href="javascript:void(0)" class="vid-btn absolute-vid-btn">
                         Watch Video
                         <i class="fa-solid fa-forward"></i>
                     </a>
@@ -24,25 +24,25 @@
                     <!--skills start-->
                     <div class="skills">
                         <div class="each-skill mb-30">
-                            <h5>Web Design <span>90%</span></h5>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90"
+                            <h5 class="skill-title">Web Design <span>90%</span></h5>
+                            <div class="progress progress-gradient">
+                                <div class="progress-bar gradient-bar" role="progressbar" style="width: 90%" aria-valuenow="90"
                                      aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
 
                         <div class="each-skill mb-30">
-                            <h5>Branding <span>75%</span></h5>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75"
+                            <h5 class="skill-title">Branding <span>75%</span></h5>
+                            <div class="progress progress-gradient">
+                                <div class="progress-bar gradient-bar" role="progressbar" style="width: 75%" aria-valuenow="75"
                                      aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
 
                         <div class="each-skill ">
-                            <h5>Development <span>85%</span></h5>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85"
+                            <h5 class="skill-title">Development <span>85%</span></h5>
+                            <div class="progress progress-gradient">
+                                <div class="progress-bar gradient-bar" role="progressbar" style="width: 85%" aria-valuenow="85"
                                      aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
@@ -141,7 +141,7 @@
 
 
 <!--number section start-->
-<div class="number-section text-center overlay" style="background-image: url({{asset('./images/home/bg3.jpg')}})">
+<div class="number-section text-center bg-dark-overlay" style="background-image: url({{asset('./images/home/bg3.jpg')}})">
     <div class="container">
         <div class="row">
             <div class="col-lg-3 col-md-6">

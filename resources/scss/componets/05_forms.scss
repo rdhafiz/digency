@@ -1,11 +1,14 @@
-.form-group{
-    .form-control{
-        font-size: 12px;
-        width: 100%;
-        padding: 15px;
-        background: $news-bg;
-        box-shadow: none;
-        outline: none;
-        border: 0;
+
+.contact-form{
+    .contact-input-wrap{
+        .contact-input{
+            font-size: 12px;
+            width: 100%;
+            padding: 15px;
+            background: $news-bg;
+            box-shadow: none;
+            outline: none;
+            border: 0;
+        }
     }
 }

@@ -19,37 +19,37 @@
 <section class="contact-section">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-lg-6 bg-img overlay" style="background-image:url({{asset('./images/home/bg5.jpg')}})">
+            <div class="col-lg-6 bg-img bg-dark-overlay" style="background-image:url({{asset('./images/home/bg5.jpg')}})">
                 <div class="info">
                     <div class="about">
-                        <h3>Contact US</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and type setting industry when an unknown
+                        <h3 class="title">Contact US</h3>
+                        <p class="desc">Lorem Ipsum is simply dummy text of the printing and type setting industry when an unknown
                             printer took a galley of type and scrambled it to make a type specimen book It has survived
                             not only five centuries.</p>
                     </div>
 
                     <div class="item">
-                        <i class="fa-solid fa-phone"></i>
+                        <i class="icon fa-solid fa-phone"></i>
                         <div class="content">
-                            <p>+20 010 2517 8918 - </p>
-                            <p> +20 010 2517 8918</p>
+                            <p class="item-desc">+20 010 2517 8918 - </p>
+                            <p class="item-desc"> +20 010 2517 8918</p>
                         </div>
                     </div>
 
                     <div class="item">
 
-                        <i class="fa-solid fa-message"></i>
+                        <i class="icon fa-solid fa-message"></i>
                         <div class="content">
-                            <p>Support@website.com - </p>
-                            <p> Nunito.Info@gmail.com</p>
+                            <p class="item-desc">Support@website.com - </p>
+                            <p class="item-desc"> Nunito.Info@gmail.com</p>
                         </div>
                     </div>
 
                     <div class="item">
-                        <i class="fa-regular fa-map"></i>
+                        <i class="icon fa-regular fa-map"></i>
                         <div class="content">
-                            <p>650 live woshington - </p>
-                            <p> 908 new homepshire ave nw</p>
+                            <p class="item-desc">650 live woshington - </p>
+                            <p class="item-desc"> 908 new homepshire ave nw</p>
                         </div>
                     </div>
                 </div>
