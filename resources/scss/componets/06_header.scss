@@ -42,8 +42,10 @@
 
         .header-menu {
 
-            .header-link {
-                color: $black;
+            .header-item{
+                .header-link {
+                    color: $black;
+                }
             }
 
         }
@@ -109,6 +111,7 @@
             background-color: $white;
             transition: 0.4s all ease-in-out;
             border-left: 1px solid $border-color;
+            overflow-y: scroll;
 
             &.active {
                 right: 0;
@@ -138,29 +141,135 @@
 
         }
 
-        .header-link {
-            text-decoration: none;
-            color: $white;
-            display: inline-block;
-            padding: 5px 10px;
-            margin: 0 5px;
-            font-size: 13px;
-            transition: 0.3s all ease-in-out;
-            font-weight: 300;
+        .header-item{
+            position: relative;
+            padding: 10px 0;
 
             @media screen and (max-width: 991px) {
-                display: block;
-                color: $black;
-                padding: 10px 5px;
+                padding: 5px;
             }
 
-            &:hover {
-                color: $theme-color;
+            .header-link {
+                text-decoration: none;
+                color: $white;
+                display: inline-block;
+                padding: 5px 10px;
+                margin: 0 5px;
+                font-size: 13px;
+                transition: 0.3s all ease-in-out;
+                font-weight: 500;
+
+                &:hover {
+                    color: $theme-color;
+
+                    .drop-icon{
+                        transform: rotate(180deg);
+
+                        @media screen and (max-width: 991px) {
+                            transform: rotate(0deg);
+                        }
+                    }
+
+                }
+
+                &.active {
+                    color: $theme-color;
+                }
+
+                .drop-icon {
+                    margin-left: 5px;
+                    font-size: 10px;
+                    transform: rotate(0deg);
+                    transition: 0.3s all ease-in-out;
+
+                    @media screen and (max-width: 991px) {
+                        &.active{
+                            transform: rotate(180deg);
+                        }
+                    }
+
+                }
+
+                @media screen and (max-width: 991px) {
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    color: $black;
+                    padding: 5px;
+                }
+
             }
 
-            &.active {
-                font-weight: normal;
-                color: $theme-color;
+            &:hover .menu-dropdown{
+                visibility: visible;
+                opacity: 1;
+                top: 45px;
+
+                @media screen and (max-width: 991px) {
+                    visibility: hidden;
+                    opacity: 0;
+                }
+
+            }
+
+            .menu-dropdown{
+                position: absolute;
+                top: 95px;
+                left: 0;
+                width: 320px;
+                height: auto;
+                border: 1px solid $border-color;
+                background-color: $white;
+                overflow: hidden;
+                padding: 30px 10px;
+                visibility: hidden;
+                opacity: 0;
+                transition: 0.3s all ease-in-out;
+
+                @media screen and (max-width: 991px) {
+                    position: absolute;
+                    z-index: 600;
+                    width: auto;
+                    margin: 10px;
+                    transition: 0s;
+                    padding: 5px;
+                    top: 45px;
+
+                    &.active{
+                        position: sticky;
+                        visibility: visible;
+                        opacity: 1;
+                        margin-right: 0;
+                    }
+
+                }
+
+                .dropdown-links{
+                    text-decoration: none;
+                    color: $grayish;
+                    padding: 10px;
+                    margin: 5px;
+                    display: block;
+                    font-weight: normal;
+                    transition: 0.3s all ease-in-out;
+
+                    @media screen and (max-width: 991px) {
+                        padding: 10px 5px;
+                    }
+
+                    &:hover{
+                        padding-left: 15px;
+                        color: $black;
+                    }
+
+                    &.active{
+                        padding-left: 15px;
+                        color: $black;
+                    }
+
+                }
+
             }
 
         }

@@ -15,5 +15,7 @@ use App\Http\Controllers\FrontController;
 */
 
 Route::get('/', [FrontController::class, 'home'])->name('home');
-Route::get('/homepage-with-background-image', [FrontController::class, 'home_background_image'])->name('home-background');
+Route::get('/homepage-with-background-image', [FrontController::class, 'home_background_image'])->name('home-background-image');
 Route::get('/homepage-with-two-columns', [FrontController::class, 'home_two_column'])->name('home-two-columns');
+Route::get('/homePage-with-background-video', [FrontController::class, 'homePage_with_background_video'])->name('home-background-video');
+Route::get('/homePage-with-background-parallax-effect', [FrontController::class, 'homePage_with_background_parallax_effect'])->name('home-parallax-effect');

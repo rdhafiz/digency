@@ -95,3 +95,11 @@ function countUP(c, number) {
 
     }, .1)
 }
+
+$(document).ready(function () {
+    let parallaxSpeed = 0.3;
+    $(window).on('scroll', function () {
+        let scrollTop = $(this).scrollTop();
+        $('.background-parallax').css('transform', 'translateY(' + scrollTop * parallaxSpeed + 'px)');
+    });
+});
