@@ -37,3 +37,12 @@
     }
 
 }
+
+.background-video{
+    height: 100vh;
+    object-fit: cover;
+    @media screen and (max-width: 1199px){
+        object-fit: contain;
+        height: auto;
+    }
+}

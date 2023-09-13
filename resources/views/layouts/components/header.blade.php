@@ -19,16 +19,16 @@
                 <a href="{{route('home')}}" class="dropdown-links" onclick="btnController()">
                     01. Home page with slider
                 </a>
-                <a href="javascript:void(0)" class="dropdown-links" onclick="btnController()">
+                <a href="{{route('home-background-image')}}" class="dropdown-links" onclick="btnController()">
                     02. Home page with Background Image
                 </a>
-                <a href="{{route('backgroundVideo')}}" class="dropdown-links" onclick="btnController()">
+                <a href="{{route('home-background-video')}}" class="dropdown-links" onclick="btnController()">
                     03. Home page with Background Video
                 </a>
-                <a href="javascript:void(0)" class="dropdown-links" onclick="btnController()">
+                <a href="{{route('home-two-columns')}}" class="dropdown-links" onclick="btnController()">
                     04. Home page with Two Column
                 </a>
-                <a href="{{route('parallaxEffect')}}" class="dropdown-links" onclick="btnController()">
+                <a href="{{route('home-parallax-effect')}}" class="dropdown-links" onclick="btnController()">
                     05. Home page with Parallax Effect
                 </a>
             </div>
