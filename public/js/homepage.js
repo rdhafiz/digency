@@ -7,7 +7,7 @@ $(document).ready(function () {
 
 $('.slider-wrap').owlCarousel({
     loop: true,
-    autoplay: true,
+    autoplay: false,
     animateOut: 'fadeOut',
     margin: 10,
     nav: false,

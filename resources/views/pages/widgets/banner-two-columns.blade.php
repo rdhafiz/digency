@@ -16,10 +16,10 @@
                         The simple, intuitive and powerful app to <br> manage your work.
                     </p>
 
-                    <a href="javascript:void(0)" class="btn mb-3 btn-theme">
+                    <a href="javascript:void(0)" class="btn mb-3 btn-theme btn-theme-ripple rounded-pill py-2 px-4 shadow ms-2 me-2">
                         <span class="text-uppercase">Start Using for free</span>
                     </a>
-                    <a href="javascript:void(0)" class="btn mb-4 mb-md-3 btn-theme2">
+                    <a href="javascript:void(0)" class="btn mb-4 mb-md-3 btn-outline-theme btn-outline-theme-ripple rounded-pill py-2 px-4 shadow ms-2 me-2">
                         <span class="text-uppercase">Explore Features</span>
                     </a>
                 </div>

@@ -9,7 +9,7 @@
                     <p class="text-white parallax-desc animate__animated animate__fadeInUp">We are a passionate digital design agency
                         that specializes in beautiful and easy-to-use digital design &amp; web development
                         services.</p>
-                    <a href="javascript:void(0)" class="btn mt-30 btn-theme">
+                    <a href="javascript:void(0)" class="btn mt-30 btn-theme btn-theme-ripple shadow rounded-pill px-4 py-2">
                         <span>Get started</span>
                     </a>
                 </div>

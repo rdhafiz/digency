@@ -29,7 +29,7 @@
                         </ul>
                     </div>
                     <div class="order">
-                        <button type="button" class="btn btn-theme2"><span>Order Now</span></button>
+                        <button type="button" class="btn btn-outline-theme btn-outline-theme-ripple rounded-pill py-2 px-4 shadow ms-2 me-2"><span>Order Now</span></button>
                     </div>
                 </div>
             </div>
@@ -59,7 +59,7 @@
                         </ul>
                     </div>
                     <div class="order">
-                        <button type="button" class="btn btn-theme"><span>Order Now</span></button>
+                        <button type="button" class="btn btn-theme btn-theme-ripple rounded-pill py-2 px-4 shadow ms-2 me-2"><span>Order Now</span></button>
                     </div>
                 </div>
             </div>
@@ -86,7 +86,7 @@
                         </ul>
                     </div>
                     <div class="order">
-                        <button type="button" class="btn btn-theme2"><span>Order Now</span></button>
+                        <button type="button" class="btn btn-outline-theme btn-outline-theme-ripple rounded-pill py-2 px-4 shadow ms-2 me-2"><span>Order Now</span></button>
                     </div>
                 </div>
             </div>

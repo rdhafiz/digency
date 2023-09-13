@@ -6,10 +6,10 @@
             <div class="col-lg-6">
                 <div class="intro-img">
                     <img class="img-fluid" src="{{asset('images/home/about-agency.jpg')}}" alt="about agency">
-                    <a href="javascript:void(0)" class="vid-btn absolute-vid-btn">
+                    <button type="button" class="btn btn-spacial-icon shadow px-5 py-3 btn-absolute-spacial-icon">
                         Watch Video
                         <i class="fa-solid fa-forward"></i>
-                    </a>
+                    </button>
                 </div>
             </div>
             <div class="col-lg-6">

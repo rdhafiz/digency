@@ -26,7 +26,7 @@
                         <a href="javascript:void(0)" class="blog-link">Arrow</a>
                     </div>
                     <div class="text-end">
-                        <a href="javascript:void(0)" class="read-me btn-outline-theme">Read Me</a>
+                        <a href="javascript:void(0)" class="read-me btn btn-outline-theme btn-outline-theme-ripple shadow rounded-pill px-4 py-2">Read Me</a>
                     </div>
                 </div>
             </div>
@@ -48,7 +48,7 @@
                         <a href="javascript:void(0)" class="blog-link">Arrow</a>
                     </div>
                     <div class="text-end">
-                        <a href="javascript:void(0)" class="read-me btn-outline-theme">Read Me</a>
+                        <a href="javascript:void(0)" class="read-me btn btn-outline-theme btn-outline-theme-ripple shadow rounded-pill px-4 py-2">Read Me</a>
                     </div>
                 </div>
             </div>
@@ -70,7 +70,7 @@
                         <a href="javascript:void(0)" class="blog-link">Arrow</a>
                     </div>
                     <div class="text-end">
-                        <a href="javascript:void(0)" class="read-me btn-outline-theme">Read Me</a>
+                        <a href="javascript:void(0)" class="read-me btn btn-outline-theme btn-outline-theme-ripple shadow rounded-pill px-4 py-2">Read Me</a>
                     </div>
                 </div>
             </div>
