@@ -40,3 +40,29 @@
         left: calc(50% - 40px);
     }
 }
+
+.parallax-title {
+    font-size: 55px;
+    font-weight: 500;
+    animation-delay: .6s;
+
+    @media screen and (max-width: 991px) {
+        font-size: 45px;
+        line-height: 1.4;
+    }  @media screen and (max-width: 767px) {
+    font-size: 25px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+}
+
+.parallax-desc {
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: 400;
+    color: $text;
+    padding: 0 30px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    animation-delay: 1s;
+}
