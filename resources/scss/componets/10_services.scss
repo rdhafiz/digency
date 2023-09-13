@@ -5,7 +5,7 @@
 
         .icon {
             font-size: 40px;
-            background: linear-gradient(45deg, $theme-color 0%, $yellow 100%);
+            background: linear-gradient(45deg, $theme-color 0%, #FBAE20 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             float: left;
@@ -22,7 +22,7 @@
                 content: '';
                 width: 40px;
                 height: 1px;
-                background: $gray-2;
+                background: #ccc;
                 position: absolute;
                 left: 0;
                 bottom: 0;
@@ -34,7 +34,7 @@
             margin-left: 70px;
             font-size: 14px;
             font-family: 'Khula', sans-serif;
-            color: $grayish;
+            color: #7f7f7f;
             line-height: 2;
             margin-bottom: 0;
             word-break: break-word;
@@ -54,15 +54,15 @@
     position: relative;
 
     .box-btn {
-        border-left: 1px solid $water-color;
-        border-right: 1px solid $water-color;
+        border-left: 1px solid rgba(255, 255, 255, 0.1);
+        border-right: 1px solid rgba(255, 255, 255, 0.1);
         display: inline-block;
         width: 300px;
         padding: 20px 0;
         text-decoration: none;
-        color: $white;
+        color: #ffffff;
         text-align: center;
-        background: $water-color;
+        background: rgba(255, 255, 255, 0.1);
         transition: 0.4s all ease-in-out;
         border-radius: 10px;
 
@@ -74,7 +74,7 @@
             background-color: $theme-color;
 
             .text-theme {
-                color: $white;
+                color: #ffffff;
                 transition: 0.4s all ease-in-out;
             }
 

@@ -24,7 +24,7 @@
 
         .social-icon {
             transition: 0.4s all ease-in-out;
-            background: $linear-gradient-theme;
+            background: linear-gradient(45deg, #F51963 0%, #FBAE20 100%);
             visibility: hidden;
             opacity: 0;
             position: absolute;
@@ -40,7 +40,7 @@
 
             a {
                 text-decoration: none;
-                color: $white;
+                color: #ffffff;
                 display: inline-block;
                 margin: 10px;
             }

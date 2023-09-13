@@ -11,31 +11,7 @@ body {
     font-family: 'Rubik', sans-serif;
 }
 
-/*color variables start*/
-$black: #000000;
-$white: #ffffff;
 $theme-color: #F51963;
-$theme-color-20: rgba(245, 25, 99, 0.2);
-$border-color: lightgray;
-$linear-gradient-theme: linear-gradient(45deg, #F51963 0%, #FBAE20 100%);
-$background-theme-color: #FAF9FF;
-$water-color: rgba(255, 255, 255, 0.1);
-$text:#eee;
-$black1:#111;
-$grayish:#7f7f7f;
-$yellow:#FBAE20;
-$light-bg:#f7f7f7;
-$gray-2: #ccc;
-$gray-3: #bbb;
-$gray-4: #777;
-$gray-5: #999;
-$gray-6: #575454;
-$news-bg: #FAF9FF;
-$dark: #222;
-$popular-sec-pink:#c00f4a;
-$popular-sec-yellow:#d6961e;
-
-/*color variables end*/
 
 ::-webkit-scrollbar {
     background-color: transparent;
@@ -43,7 +19,7 @@ $popular-sec-yellow:#d6961e;
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: $gray-6;
+    background-color: #575454;
     height: 20px !important;
 }
 
@@ -89,7 +65,7 @@ $popular-sec-yellow:#d6961e;
                 width: 11px;
                 height: 11px;
                 border-radius: 50%;
-                background:$white;
+                background:#ffffff;
                 animation-timing-function: cubic-bezier(0, 1, 1, 0);
                 &:nth-child(1){
                     left: 6px;
