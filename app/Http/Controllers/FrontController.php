@@ -11,12 +11,12 @@ class FrontController extends Controller
         return view('pages.home');
     }
 
-    public function homeBackground()
+    public function home_background_image()
     {
-        return view('pages.home-background');
+        return view('pages.home-background-image');
     }
 
-    public function homeTwoColumn()
+    public function home_two_column()
     {
         return view('pages.home-two-columns');
     }

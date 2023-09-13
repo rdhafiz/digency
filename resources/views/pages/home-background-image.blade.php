@@ -2,7 +2,7 @@
 @section('title', 'Creative Digital Agency Template')
 @section('content')
 
-    @include('pages.widgets.banner-background')
+    @include('pages.widgets.banner-background-image')
 
     @include('pages.widgets.about-welcome')
 
