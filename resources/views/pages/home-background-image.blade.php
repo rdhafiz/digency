@@ -22,6 +22,8 @@
 
     @include('pages.widgets.contact-form-one')
 
+    @include('pages.widgets.partners-one')
+
     @include('pages.widgets.contact-one')
 
 @endsection

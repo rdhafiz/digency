@@ -1,88 +1,57 @@
-
 .btn-theme {
     background: $theme-color;
     color: #fff;
     border-color: $theme-color;
-    animation-delay: 1.2s;
-    padding: 12px 40px;
-    border-radius: 30px;
-    position: relative;
-    z-index: 3;
-    margin-left: 10px;
-    margin-right: 10px;
-    box-shadow: -15px 15px 20px rgba(0, 0, 0, 0.1);
-    transition: all .4s;
-    cursor: pointer;
-    outline: none !important;
 
-    &:after {
-        content: '';
-        width: 0;
-        height: 100%;
-        background: #fff;
-        border-radius: 30px;
-        position: absolute;
-        left: 50%;
-        top: 0px;
-        z-index: 1;
-        opacity: .5;
-        transition: all .4s;
-    }
+    &.btn-theme-ripple {
+        transition: .4s all;
+        position: relative;
+        z-index: 3;
+        animation-delay: 1.2s;
+        overflow: hidden;
 
-    &:hover {
-        border-color: #fff;
-        background: transparent;
+        &.rounded-pill {
+            &:after {
+                border-radius: 30px;
+            }
+        }
 
-        span {
-            position: relative;
-            z-index: 3;
-            color: $theme-color !important;
+        &:hover {
+            border-color: #fff;
+            background: transparent;
+
+            span {
+                position: relative;
+                z-index: 3;
+                color: $theme-color !important;
+            }
+        }
+
+        &:after {
+            content: '';
+            width: 0;
+            height: 100%;
+            background: #fff;
+            position: absolute;
+            left: 50%;
+            top: 0;
+            z-index: 1;
+            opacity: .5;
+            transition: all .4s;
+        }
+
+        &:hover:after {
+            width: 100%;
+            left: 0;
+            opacity: 1;
+            background: #fff;
         }
     }
 
-    &:hover:after {
-        width: 100%;
-        left: 0;
-        opacity: 1;
-        background: #fff;
-    }
-}
-
-
-
-.btn-theme2 {
-    background: white;
-    color: #000;
-    border-color: $theme-color;
-    animation-delay: 1.2s;
-    padding: 12px 40px;
-    border-radius: 30px;
-    position: relative;
-    z-index: 3;
-    margin-left: 10px;
-    margin-right: 10px;
-    box-shadow: -15px 15px 20px rgba(0, 0, 0, 0.1);
-    transition: all .4s;
-    cursor: pointer;
-    outline: none !important;
-
-    &:after {
-        content: '';
-        width: 0;
-        height: 100%;
-        background: #fff;
-        border-radius: 30px;
-        position: absolute;
-        left: 50%;
-        top: 0px;
-        z-index: 1;
-        opacity: .5;
-        transition: all .4s;
-    }
 
     &:hover {
-        border-color: $theme-color;
-        background: transparent;
+
+        background: darken($theme-color, 10%);
 
         span {
             position: relative;
@@ -91,76 +60,81 @@
         }
     }
 
-    &:hover:after {
-        width: 100%;
-        left: 0;
-        opacity: 1;
-        background: $theme-color;
-    }
 }
-
-
 
 
 .btn-outline-theme {
     color: $theme-color;
-    display: inline-block;
-    text-decoration: none;
-    padding: 12px 40px;
     background: #fff;
-    border-radius: 30px;
-    position: relative;
-    z-index: 3;
-    margin-left: 10px;
-    margin-right: 10px;
-    transition: all .4s;
-    cursor: pointer;
-    outline: none !important;
     border: 1px solid $theme-color;
 
-    &:after{
-        content: '';
-        width: 0;
-        height: 100%;
-        background: $theme-color;
-        border-radius: 30px;
-        position: absolute;
-        left: 50%;
-        top: 0;
-        z-index: -1;
-        opacity: .5;
-        transition: all .4s;
-    }
+    &.btn-outline-theme-ripple {
+        position: relative;
+        z-index: 3;
 
-    &:hover{
-        background-color: transparent;
-        border: 1px solid $theme-color;
-        color: #fff;
-
-        &:after{
-            left: 0;
-            opacity: 1;
-            width: 100%;
-            color: #fff;
+        &:after {
+            content: '';
+            width: 0;
+            height: 100%;
+            background: $theme-color;
+            border-radius: 30px;
+            position: absolute;
+            left: 50%;
+            top: 0;
+            z-index: -1;
+            opacity: .5;
+            transition: all .4s;
         }
 
+        &:hover {
+            background-color: transparent;
+            border: 1px solid $theme-color;
+            color: #fff;
+
+            span {
+                position: relative;
+                z-index: 3;
+                color: #fff !important;
+            }
+
+            &:after {
+                left: 0;
+                opacity: 1;
+                width: 100%;
+                color: #fff;
+            }
+
+        }
+
+        &.rounded-pill {
+            &.after {
+                border-radius: 30px;
+            }
+        }
     }
+
+    &:hover {
+        background-color: #FAF9FF;
+        border: 1px solid $theme-color;
+
+        span {
+            color: $theme-color;
+        }
+    }
+
+
 }
 
 
-
-.vid-btn{
-    padding: 15px 60px;
+.btn-spacial-icon {
     background: #fff;
-    box-shadow: 0px 10px 40px -4px rgba(0, 0, 0, 0.1);
-    text-decoration: none;
-    height: 48px;
     vertical-align: middle;
     text-transform: uppercase;
     font-size: 12px;
     letter-spacing: 1px;
     color: $theme-color;
-    i{
+
+    i {
         color: $theme-color;
         font-size: 25px;
         position: absolute;
@@ -168,7 +142,7 @@
         top: 12px;
     }
 
-    &:after{
+    &:after {
         content: '';
         width: 0;
         height: 0;
@@ -178,5 +152,10 @@
         bottom: 1px;
         left: 1px;
         opacity: .8;
+    }
+
+    &:hover {
+        background-color: #fff;
+        color: $theme-color;
     }
 }

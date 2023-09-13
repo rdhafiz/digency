@@ -31,7 +31,7 @@
                         </div>
 
                         <div class="col-md-12 mt-2 text-center">
-                            <button type="submit" class="btn btn-theme"><span>Send Message</span></button>
+                            <button type="submit" class="btn btn-theme btn-theme-ripple rounded-pill py-2 px-4 shadow ms-2 me-2"><span>Send Message</span></button>
                         </div>
                     </div>
                 </form>
