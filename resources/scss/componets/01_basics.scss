@@ -11,9 +11,6 @@ body {
     font-family: 'Rubik', sans-serif;
 }
 
-
-
-
 /*color variables start*/
 $black: #000000;
 $white: #ffffff;
@@ -40,7 +37,15 @@ $popular-sec-yellow:#d6961e;
 
 /*color variables end*/
 
+::-webkit-scrollbar {
+    background-color: transparent;
+    width: 10px;
+}
 
+::-webkit-scrollbar-thumb {
+    background-color: $gray-6;
+    height: 20px !important;
+}
 
 .mt-30 {
     margin-top: 30px;

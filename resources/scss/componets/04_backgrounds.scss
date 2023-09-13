@@ -19,3 +19,20 @@
 .background-theme-color{
     background-color: $background-theme-color !important;
 }
+
+.parallax-container {
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.background-parallax {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    transform: translateZ(0);
+}
