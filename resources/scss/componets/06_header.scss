@@ -263,6 +263,11 @@
                         color: $black;
                     }
 
+                    &.active{
+                        padding-left: 15px;
+                        color: $black;
+                    }
+
                 }
 
             }

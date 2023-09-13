@@ -16,7 +16,7 @@
                 Home <i class="fa-solid fa-chevron-down drop-icon"></i>
             </a>
             <div class="menu-dropdown">
-                <a href="{{route('home')}}" class="dropdown-links" onclick="btnController()">
+                <a href="{{route('home')}}" class="dropdown-links" onclick="btnController();">
                     01. Home page with slider
                 </a>
                 <a href="{{route('home-background-image')}}" class="dropdown-links" onclick="btnController()">
