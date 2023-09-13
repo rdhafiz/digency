@@ -25,7 +25,7 @@ class FrontController extends Controller
         return view('pages.homePage-with-background-video');
     }
 
-    public function homePage_with_background_parallaxEffect(){
+    public function homePage_with_background_parallax_effect(){
         return view('pages.homePage-with-parallax-effect');
     }
 }
