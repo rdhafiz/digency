@@ -14,4 +14,6 @@ use App\Http\Controllers\FrontController;
 |
 */
 
-Route::get('/', [FrontController::class, 'home']);
+Route::get('/', [FrontController::class, 'home'])->name('home');
+Route::get('/homepage-with-background-image', [FrontController::class, 'home_background_image'])->name('home-background');
+Route::get('/homepage-with-two-columns', [FrontController::class, 'home_two_column'])->name('home-two-columns');

@@ -1,12 +1,14 @@
 <!-- header section start -->
 <div class="header fixed-top">
     <a href="#home" class="header-logo">
-        <img src="{{asset('images/home/logo-light.png')}}" class="img-fluid logo-1" alt="logo-light">
-        <img src="{{asset('images/home/logo-dark.png')}}" class="img-fluid logo-2" alt="logo-dark">
+        <img src="{{asset('images/home/logo-dark.png')}}" class="img-fluid" alt="logo-dark">
     </a>
-    <a href="javascript:void(0)" class="controller-icon" onclick="btnController()">
+
+    <a href="javascript:void(0)" class="controller-icon text-dark" onclick="btnController()">
         <i class="fa-solid fa-bars"></i>
     </a>
+
+
     <div class="header-menu">
         <a href="javascript:void(0)" class="close-btn" onclick="btnController()">
             <i class="fa-solid fa-x"></i>
