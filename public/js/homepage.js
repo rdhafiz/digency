@@ -97,11 +97,9 @@ function countUP(c, number) {
 }
 
 $(document).ready(function () {
-    // Adjust this value to control the parallax effect speed
-    var parallaxSpeed = 0.3;
-
+    let parallaxSpeed = 0.3;
     $(window).on('scroll', function () {
-        var scrollTop = $(this).scrollTop();
+        let scrollTop = $(this).scrollTop();
         $('.background-parallax').css('transform', 'translateY(' + scrollTop * parallaxSpeed + 'px)');
     });
 });
