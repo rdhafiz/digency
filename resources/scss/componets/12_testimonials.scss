@@ -21,9 +21,9 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                background-color: $white;
+                background-color: #ffffff;
                 color: $theme-color;
-                box-shadow: 0 0 12px 0 $border-color;
+                box-shadow: 0 0 12px 0 #D3D3D3FF;
                 border-radius: 50%;
             }
 
@@ -32,8 +32,8 @@
                 height: 40px;
                 border-radius: 50%;
                 object-fit: contain;
-                background-color: $border-color;
-                box-shadow: 0 0 12px 0 $border-color;
+                background-color: #D3D3D3FF;
+                box-shadow: 0 0 12px 0 #D3D3D3FF;
             }
 
         }
@@ -62,9 +62,9 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                background-color: $white;
+                background-color: #ffffff;
                 border-radius: 50%;
-                box-shadow: 0 0 8px 0 $border-color;
+                box-shadow: 0 0 8px 0 #D3D3D3FF;
 
                 span {
                     color: $theme-color;
@@ -78,9 +78,9 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                background-color: $white;
+                background-color: #ffffff;
                 border-radius: 50%;
-                box-shadow: 0 0 8px 0 $border-color;
+                box-shadow: 0 0 8px 0 #D3D3D3FF;
 
                 span {
                     color: $theme-color;

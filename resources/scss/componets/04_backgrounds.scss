@@ -2,7 +2,7 @@
     position: relative;
 
     &:before {
-        background: $black;
+        background: #000000;
         opacity: 0.8;
         content: '';
         position: absolute;
@@ -17,7 +17,7 @@
 
 
 .background-theme-color{
-    background-color: $background-theme-color !important;
+    background-color: #FAF9FF !important;
 }
 
 .parallax-container {

@@ -1,7 +1,7 @@
 
 .btn-theme {
     background: $theme-color;
-    color: $white;
+    color: #fff;
     border-color: $theme-color;
     animation-delay: 1.2s;
     padding: 12px 40px;
@@ -19,7 +19,7 @@
         content: '';
         width: 0;
         height: 100%;
-        background: $white;
+        background: #fff;
         border-radius: 30px;
         position: absolute;
         left: 50%;
@@ -44,7 +44,7 @@
         width: 100%;
         left: 0;
         opacity: 1;
-        background: $white;
+        background: #fff;
     }
 }
 
@@ -52,7 +52,7 @@
 
 .btn-theme2 {
     background: white;
-    color: $black;
+    color: #000;
     border-color: $theme-color;
     animation-delay: 1.2s;
     padding: 12px 40px;
@@ -70,7 +70,7 @@
         content: '';
         width: 0;
         height: 100%;
-        background: $white;
+        background: #fff;
         border-radius: 30px;
         position: absolute;
         left: 50%;
@@ -87,7 +87,7 @@
         span {
             position: relative;
             z-index: 3;
-            color: $white !important;
+            color: #fff !important;
         }
     }
 
@@ -107,7 +107,7 @@
     display: inline-block;
     text-decoration: none;
     padding: 12px 40px;
-    background: $white;
+    background: #fff;
     border-radius: 30px;
     position: relative;
     z-index: 3;
@@ -135,13 +135,13 @@
     &:hover{
         background-color: transparent;
         border: 1px solid $theme-color;
-        color: $white;
+        color: #fff;
 
         &:after{
             left: 0;
             opacity: 1;
             width: 100%;
-            color: $white;
+            color: #fff;
         }
 
     }
