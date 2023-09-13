@@ -19,7 +19,7 @@
                     <a href="javascript:void(0)" class="btn mb-3 btn-theme">
                         <span class="text-uppercase">Start Using for free</span>
                     </a>
-                    <a href="javascript:void(0)" class="btn mb-3 btn-theme2">
+                    <a href="javascript:void(0)" class="btn mb-4 mb-md-3 btn-theme2">
                         <span class="text-uppercase">Explore Features</span>
                     </a>
                 </div>
