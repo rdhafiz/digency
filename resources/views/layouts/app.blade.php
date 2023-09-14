@@ -38,6 +38,14 @@
     @include('layouts.components.header-dark')
 @endif
 
+@if(Request::route()->getName() == 'shadow-hover-effect')
+    @include('layouts.components.header-dark')
+@endif
+
+@if(Request::route()->getName() == 'border-hover-effect')
+    @include('layouts.components.header-dark')
+@endif
+
 @yield('content')
 
 @include('layouts.components.footer')
