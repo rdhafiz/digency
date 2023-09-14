@@ -119,6 +119,7 @@
             transition: 0.4s all ease-in-out;
             border-left: 1px solid #D3D3D3FF;
             overflow-y: scroll;
+            z-index: 9999;
 
             &.active {
                 right: 0;
@@ -291,6 +292,9 @@
     /*for dark variation*/
     &.header-dark {
         .header-menu {
+            @media screen and (max-width: 991px) {
+                z-index: 9999;
+            }
             .header-item {
                 .header-link {
                     color: #000;

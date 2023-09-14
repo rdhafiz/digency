@@ -27,23 +27,22 @@
 </div>
 <!--page loader-->
 
+@php
 
-@if(Request::route()->getName() == 'home-two-columns')
+    $routeName = Request::route()->getName();
+
+@endphp
+
+@if(
+    $routeName == 'home-two-columns' || $routeName == 'button-variations' ||
+    $routeName == 'shadow-hover-effect' || $routeName == 'border-hover-effect')
+
     @include('layouts.components.header-dark')
+
 @else
+
     @include('layouts.components.header')
-@endif
 
-@if(Request::route()->getName() == 'button-variations')
-    @include('layouts.components.header-dark')
-@endif
-
-@if(Request::route()->getName() == 'shadow-hover-effect')
-    @include('layouts.components.header-dark')
-@endif
-
-@if(Request::route()->getName() == 'border-hover-effect')
-    @include('layouts.components.header-dark')
 @endif
 
 @yield('content')
