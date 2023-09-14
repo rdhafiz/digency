@@ -28,6 +28,14 @@
                                 <span>Button outline theme ripple</span>
                             </button>
 
+                            <button type="button" class="btn btn-theme btn-theme-ripple rounded-pill shadow m-1">
+                                <span>Button theme rounded ripple</span>
+                            </button>
+
+                            <button type="button" class="btn  btn-outline-theme btn-outline-theme-ripple rounded-pill shadow m-1">
+                                <span>Button outline theme rounded ripple</span>
+                            </button>
+
                         </div>
 
                         <!--html code start-->
@@ -94,17 +102,26 @@
                             <!-- button theme ripple -->
                             <div class="sm-title">button theme ripple</div>
                             <xmp class="white-space-inherit code-line">
-                                <button type="button" class="btn  btn-theme btn-theme-ripple shadow m-1">
+                                <button type="button" class="btn btn-theme btn-theme-ripple shadow m-1">
                                     <span>Button theme ripple</span>
                                 </button>
                             </xmp>
                             <!-- button theme ripple -->
 
-                            <!-- button outline theme ripple -->
-                            <div class="sm-title">button outline theme ripple</div>
+                            <!-- button theme ripple rounded pill-->
+                            <div class="sm-title">button theme rounded ripple</div>
                             <xmp class="white-space-inherit code-line">
-                                <button type="button" class="btn  btn-outline-theme btn-outline-theme-ripple shadow m-1">
-                                    <span>Button outline theme ripple</span>
+                                <button type="button" class="btn btn-theme btn-theme-ripple rounded-pill shadow m-1">
+                                    <span>Button theme rounded ripple</span>
+                                </button>
+                            </xmp>
+                            <!-- button theme ripple rounded pill-->
+
+                            <!-- button outline theme ripple -->
+                            <div class="sm-title">button outline theme rounded ripple</div>
+                            <xmp class="white-space-inherit code-line">
+                                <button type="button" class="btn btn-outline-theme btn-outline-theme-ripple shadow m-1">
+                                    <span>Button outline theme rounded ripple</span>
                                 </button>
                             </xmp>
                             <!-- button outline theme ripple -->
