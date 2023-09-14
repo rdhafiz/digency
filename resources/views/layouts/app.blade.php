@@ -34,6 +34,12 @@
     @include('layouts.components.header')
 @endif
 
+@if(Request::route()->getName() == 'button-variations')
+    @include('layouts.components.header-dark')
+@else
+    @include('layouts.components.header')
+@endif
+
 @yield('content')
 
 @include('layouts.components.footer')
