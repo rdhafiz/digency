@@ -1,8 +1,8 @@
 <!-- header section start -->
 <div class="header fixed-top">
     <a href="{{route('home')}}" class="header-logo">
-        <img src="{{asset('images/home/logo-light.png')}}" class="img-fluid logo-1" alt="logo-light">
-        <img src="{{asset('images/home/logo-dark.png')}}" class="img-fluid logo-2" alt="logo-dark">
+        <img src="{{asset('images/default-logo.png')}}" class="img-fluid logo-1 logo-size" alt="logo-light">
+        <img src="{{asset('images/default-logo.png')}}" class="img-fluid logo-2 logo-size" alt="logo-dark">
     </a>
     <a href="javascript:void(0)" class="controller-icon" onclick="btnController()">
         <i class="fa-solid fa-bars"></i>
