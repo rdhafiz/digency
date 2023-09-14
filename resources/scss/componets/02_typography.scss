@@ -68,5 +68,11 @@
 
 .code-line{
     font-size: 18px;
+}
 
+.res-text{
+    @media screen and (max-width: 600px) {
+        margin-top: 10px;
+        display: block;
+    }
 }
