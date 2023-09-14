@@ -226,6 +226,11 @@
                 opacity: 0;
                 transition: 0.3s all ease-in-out;
 
+                @media screen and (max-width: 1600px) {
+                    right: 0;
+                    left: auto;
+                }
+
                 @media screen and (max-width: 991px) {
                     position: absolute;
                     z-index: 600;
