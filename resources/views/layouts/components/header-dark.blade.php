@@ -1,7 +1,7 @@
 <!-- header section start -->
 <div class="header header-dark fixed-top">
     <a href="{{route('home')}}" class="header-logo">
-        <img src="{{asset('images/home/logo-dark.png')}}" class="img-fluid" alt="logo-dark">
+        <img src="{{asset('images/default-logo.png')}}" class="img-fluid logo-size" alt="logo-dark">
     </a>
     <a href="javascript:void(0)" class="controller-icon text-dark" onclick="btnController()">
         <i class="fa-solid fa-bars"></i>
