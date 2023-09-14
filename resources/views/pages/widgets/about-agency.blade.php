@@ -6,7 +6,7 @@
             <div class="col-lg-6">
                 <div class="intro-img">
                     <img class="img-fluid" src="{{asset('images/home/about-agency.jpg')}}" alt="about agency">
-                    <button type="button" class="btn btn-spacial-icon shadow px-5 py-3 btn-absolute-spacial-icon">
+                    <button type="button" class="btn btn-spacial-icon shadow px-5 py-3 btn-absolute-spacial-icon rounded-0" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         Watch Video
                         <i class="fa-solid fa-forward"></i>
                     </button>
@@ -56,6 +56,17 @@
         </div>
     </div>
 </section>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content rounded-0">
+            <div class="modal-body rounded-0 p-0 m-0">
+                <video src="{{asset('video/banner-video.mp4')}}" class="img-fluid p-0 m-0" controls></video>
+            </div>
+        </div>
+    </div>
+</div>
+
 <!--about agency section end  -->
 
 
