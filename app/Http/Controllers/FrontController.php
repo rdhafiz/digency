@@ -35,4 +35,12 @@ class FrontController extends Controller
     {
         return view('pages.button-variations');
     }
+
+    public function shadow_hover_effect(){
+        return view('pages.shadow-hover-effect');
+    }
+
+    public function border_hover_effect(){
+        return view('pages.border-hover-effect');
+    }
 }
