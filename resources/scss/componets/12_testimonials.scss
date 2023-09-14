@@ -5,12 +5,13 @@
     background-repeat: repeat;
     background-size: auto;
     position: relative;
+    height: 450px;
 
     .testimonial {
         position: relative;
 
         .item {
-            height: 450px;
+            height: auto;
 
             .quas {
                 position: absolute;
@@ -41,10 +42,18 @@
 
         &:hover .owl-nav {
             visibility: visible;
+            transition: 0.3s all ease-in-out;
+
+            .owl-prev{
+                left: 10px;
+            }
+            .owl-next{
+                right: 10px;
+            }
+
         }
 
         .owl-nav {
-            visibility: hidden;
             position: absolute;
             top: 0;
             bottom: 50px;
@@ -55,6 +64,7 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
+            visibility: hidden;
 
             .owl-prev {
                 width: 50px;
@@ -65,6 +75,9 @@
                 background-color: #ffffff;
                 border-radius: 50%;
                 box-shadow: 0 0 8px 0 #D3D3D3FF;
+                position: relative;
+                left: -60px;
+                transition: 0.3s all ease-in-out;
 
                 span {
                     color: $theme-color;
@@ -81,6 +94,9 @@
                 background-color: #ffffff;
                 border-radius: 50%;
                 box-shadow: 0 0 8px 0 #D3D3D3FF;
+                position: relative;
+                right: -60px;
+                transition: 0.3s all ease-in-out;
 
                 span {
                     color: $theme-color;

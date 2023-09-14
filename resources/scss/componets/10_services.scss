@@ -80,6 +80,10 @@
 
         }
 
+        .text-theme{
+            transition: 0.4s all ease-in-out;
+        }
+
         @media screen and (max-width: 1400px) {
             width: 270px;
         }
@@ -88,7 +92,11 @@
             width: 210px;
         }
 
-        @media screen and (max-width: 540px){
+        @media screen and (max-width: 991px){
+            width: 95%;
+        }
+
+        @media screen and (max-width: 540px) {
             width: 100%;
         }
 

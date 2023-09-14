@@ -127,12 +127,14 @@
 
 
 .btn-spacial-icon {
-    background: #fff;
+    background: #fff !important;
+    outline: none;
+    border: none;
     vertical-align: middle;
     text-transform: uppercase;
     font-size: 12px;
     letter-spacing: 1px;
-    color: $theme-color;
+    color: $theme-color !important;
 
     i {
         color: $theme-color;

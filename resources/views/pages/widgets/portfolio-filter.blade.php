@@ -10,19 +10,19 @@
                 <div class="project-tabs">
                     <nav>
                         <div class="nav justify-content-center" id="nav-tab" role="tablist">
-                            <button class="nav-links active mb-2" id="nav-all-tab" data-bs-toggle="tab"
+                            <button class="btn rounded-pill nav-links active mb-2" id="nav-all-tab" data-bs-toggle="tab"
                                     data-bs-target="#all"
                                     type="button" role="tab" aria-controls="all" aria-selected="false" tabindex="-1">All
                             </button>
-                            <button class="nav-links mb-2" id="nav-website-tab" data-bs-toggle="tab"
+                            <button class="btn rounded-pill nav-links mb-2" id="nav-website-tab" data-bs-toggle="tab"
                                     data-bs-target="#brand" type="button" role="tab" aria-controls="all"
                                     aria-selected="false" tabindex="-1">Brand
                             </button>
-                            <button class="nav-links mb-2" id="nav-branding-tab" data-bs-toggle="tab"
+                            <button class="btn rounded-pill nav-links mb-2" id="nav-branding-tab" data-bs-toggle="tab"
                                     data-bs-target="#design" type="button" role="tab" aria-controls="all"
                                     aria-selected="false" tabindex="-1">Design
                             </button>
-                            <button class="nav-links mb-2" id="nav-app-tab" data-bs-toggle="tab"
+                            <button class="btn rounded-pill nav-links mb-2" id="nav-app-tab" data-bs-toggle="tab"
                                     data-bs-target="#graphic"
                                     type="button" role="tab" aria-controls="all" aria-selected="false" tabindex="-1">
                                 Graphic
@@ -247,6 +247,7 @@
             </div>
         </div>
     </div>
+
 </section>
 <!--portfolio section end  -->
 

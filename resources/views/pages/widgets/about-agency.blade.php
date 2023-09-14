@@ -12,7 +12,7 @@
                     </button>
                 </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 mt-4 mt-lg-0">
                 <div class="intro-content">
                     <h6 class="sm-title">We Are Creative Agency</h6>
                     <h2 class="intro-title">About Our Agency</h2>
