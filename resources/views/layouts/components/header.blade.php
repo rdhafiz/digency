@@ -65,7 +65,7 @@
         </div>
         <div class="header-item">
             <a href="javascript:void(0)" class="header-link" onclick="dropdownToggle(event);dropIconToggle(event)">
-                Features <i class="fa-solid fa-chevron-down drop-icon"></i>
+                Components <i class="fa-solid fa-chevron-down drop-icon"></i>
             </a>
             <div class="menu-dropdown">
                 <a href="{{route('home')}}" class="dropdown-links" onclick="btnController();">
