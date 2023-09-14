@@ -73,13 +73,13 @@
     &.btn-outline-theme-ripple {
         position: relative;
         z-index: 3;
+        overflow: hidden;
 
         &:after {
             content: '';
             width: 0;
             height: 100%;
             background: $theme-color;
-            border-radius: 30px;
             position: absolute;
             left: 50%;
             top: 0;

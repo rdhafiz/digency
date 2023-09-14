@@ -19,7 +19,18 @@
                             <button type="button" class="btn btn-danger-gradient m-1">Button danger gradient</button>
                             <button type="button" class="btn btn-warning-gradient m-1">Button warning gradient</button>
                             <button type="button" class="btn btn-spacial-icon m-1">Button spacial icon</button>
+
+                            <button type="button" class="btn  btn-theme btn-theme-ripple shadow m-1">
+                                <span>Button theme ripple</span>
+                            </button>
+
+                            <button type="button" class="btn  btn-outline-theme btn-outline-theme-ripple shadow m-1">
+                                <span>Button outline theme ripple</span>
+                            </button>
+
                         </div>
+
+                        <!--html code start-->
                         <div class="border text-start p-4">
                             <!-- button theme-->
                             <div class="sm-title">Button Theme</div>
@@ -45,7 +56,8 @@
                             <!-- button primary gradient-->
                             <div class="sm-title">Button primary gradient</div>
                             <xmp class="white-space-inherit code-line">
-                                <button type="button" class="btn btn-primary-gradient m-1">Button primary gradient</button>
+                                <button type="button" class="btn btn-primary-gradient m-1">Button primary gradient
+                                </button>
                             </xmp>
                             <!-- button primary gradient-->
 
@@ -59,14 +71,16 @@
                             <!-- button danger gradient-->
                             <div class="sm-title">Button danger gradient</div>
                             <xmp class="white-space-inherit code-line">
-                                <button type="button" class="btn btn-danger-gradient m-1">Button danger gradient</button>
+                                <button type="button" class="btn btn-danger-gradient m-1">Button danger gradient
+                                </button>
                             </xmp>
                             <!-- button danger gradient-->
 
                             <!-- button warning gradient-->
                             <div class="sm-title">Button Theme</div>
                             <xmp class="white-space-inherit code-line">
-                                <button type="button" class="btn btn-warning-gradient m-1">Button warning gradient</button>
+                                <button type="button" class="btn btn-warning-gradient m-1">Button warning gradient
+                                </button>
                             </xmp>
                             <!-- button warning gradient-->
 
@@ -77,7 +91,26 @@
                             </xmp>
                             <!-- button spacial icon -->
 
+                            <!-- button theme ripple -->
+                            <div class="sm-title">button theme ripple</div>
+                            <xmp class="white-space-inherit code-line">
+                                <button type="button" class="btn  btn-theme btn-theme-ripple shadow m-1">
+                                    <span>Button theme ripple</span>
+                                </button>
+                            </xmp>
+                            <!-- button theme ripple -->
+
+                            <!-- button outline theme ripple -->
+                            <div class="sm-title">button outline theme ripple</div>
+                            <xmp class="white-space-inherit code-line">
+                                <button type="button" class="btn  btn-outline-theme btn-outline-theme-ripple shadow m-1">
+                                    <span>Button outline theme ripple</span>
+                                </button>
+                            </xmp>
+                            <!-- button outline theme ripple -->
+
                         </div>
+                        <!--html code end  -->
                     </div>
                 </div>
             </div>
