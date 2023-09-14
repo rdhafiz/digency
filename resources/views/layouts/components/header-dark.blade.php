@@ -1,5 +1,5 @@
 <!-- header section start -->
-<div class="header fixed-top">
+<div class="header header-dark fixed-top">
     <a href="{{route('home')}}" class="header-logo">
         <img src="{{asset('images/home/logo-dark.png')}}" class="img-fluid" alt="logo-dark">
     </a>

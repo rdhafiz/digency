@@ -21,11 +21,18 @@ class FrontController extends Controller
         return view('pages.home-two-columns');
     }
 
-    public function homePage_with_background_video(){
+    public function homePage_with_background_video()
+    {
         return view('pages.homePage-with-background-video');
     }
 
-    public function homePage_with_background_parallax_effect(){
+    public function homePage_with_background_parallax_effect()
+    {
         return view('pages.homePage-with-parallax-effect');
+    }
+
+    public function button_variations()
+    {
+        return view('pages.button-variations');
     }
 }
