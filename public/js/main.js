@@ -38,7 +38,7 @@ function dropdownToggle(e) {
             }
         }
     })
-};
+}
 
 function dropIconToggle(e) {
     let dropdown = e.target.closest('.header-link').querySelector('.drop-icon');
