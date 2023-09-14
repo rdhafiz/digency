@@ -58,6 +58,8 @@
             z-index: 3;
             color: #fff !important;
         }
+
+        color: #fff !important;
     }
 
 }
@@ -120,6 +122,8 @@
         span {
             color: $theme-color;
         }
+
+        color: $theme-color;
     }
 
 
@@ -135,6 +139,8 @@
     font-size: 12px;
     letter-spacing: 1px;
     color: $theme-color !important;
+    border: 1px solid #d2d2d2;
+    position: relative;
     overflow: hidden;
 
     i {
@@ -160,5 +166,123 @@
     &:hover {
         background-color: #fff;
         color: $theme-color;
+        border-color: #afafaf;
     }
 }
+
+
+.btn-theme-gradient {
+    background: linear-gradient(to right, $theme-color 0%, #FBAE20 50%, $theme-color 100%);
+    color: #fff;
+    border: none;
+    transition: .4s all;
+    background-size: 200% auto;
+
+    &:hover {
+
+        background-position: right center;
+        transition: .4s all;
+
+        span {
+            position: relative;
+            z-index: 3;
+            color: #fff !important;
+        }
+
+        color: #fff !important;
+    }
+}
+
+
+.btn-primary-gradient {
+    background-image: linear-gradient(to right, #0d6efd 0%, darken(#0d6efd,20%)  51%, #0d6efd  100%);
+    color: #fff;
+    border: none;
+    transition: .4s all;
+    background-size: 200% auto;
+
+    &:hover {
+
+        background-position: right center;
+        transition: .4s all;
+
+        span {
+            position: relative;
+            z-index: 3;
+            color: #fff !important;
+        }
+
+        color: #fff !important;
+    }
+}
+
+
+.btn-info-gradient {
+    background-image: linear-gradient(to right, #0dcaf0 0%, darken(#0dcaf0,20%) 51%, #0dcaf0 100%);
+    color: #fff;
+    border: none;
+    transition: .4s all;
+    background-size: 200% auto;
+
+    &:hover {
+
+        background-position: right center;
+        transition: .4s all;
+
+        span {
+            position: relative;
+            z-index: 3;
+            color: #fff !important;
+        }
+
+        color: #fff !important;
+    }
+}
+
+
+.btn-danger-gradient {
+    background-image: linear-gradient(to right, #dc3545 0%, darken(#dc3545,10%) 51%, #dc3545 100%);
+    color: #fff;
+    border: none;
+    transition: .4s all;
+    background-size: 200% auto;
+
+    &:hover {
+
+        background-position: right center;
+        transition: .4s all;
+
+        span {
+            position: relative;
+            z-index: 3;
+            color: #fff !important;
+        }
+
+        color: #fff !important;
+    }
+}
+
+
+.btn-warning-gradient {
+    background-image: linear-gradient(to right, #ffc107 0%, darken(#ffc107,10%) 51%, #ffc107 100%);
+    color: #fff;
+    border: none;
+    transition: .4s all;
+    background-size: 200% auto;
+
+    &:hover {
+
+        background-position: right center;
+        transition: .4s all;
+
+        span {
+            position: relative;
+            z-index: 3;
+            color: #fff !important;
+        }
+
+        color: #fff !important;
+    }
+}
+
+
