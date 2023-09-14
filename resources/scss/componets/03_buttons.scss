@@ -75,6 +75,12 @@
         z-index: 3;
         overflow: hidden;
 
+        &.rounded-pill {
+            &:after {
+                border-radius: 30px;
+            }
+        }
+
         &:after {
             content: '';
             width: 0;
@@ -108,11 +114,7 @@
 
         }
 
-        &.rounded-pill {
-            &.after {
-                border-radius: 30px;
-            }
-        }
+
     }
 
     &:hover {

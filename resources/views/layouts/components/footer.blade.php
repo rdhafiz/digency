@@ -1,8 +1,8 @@
 <!-- footer start -->
-<div class="w-100 bg-light">
+<div class="footer w-100 bg-light">
     <div class="container-fluid py-5">
         <div class="text-center pt-5 pb-3">
-            <img src="{{asset('images/home/logo-dark.png')}}" class="img-fluid" alt="">
+            <img src="{{asset('images/default-logo.png')}}" class="img-fluid footer-logo-size" alt="">
         </div>
         <div class="d-flex justify-content-center align-items-center bottom-footer">
             <a href="javascript:void(0)">
