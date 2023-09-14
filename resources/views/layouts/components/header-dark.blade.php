@@ -33,32 +33,32 @@
             </div>
         </div>
         <div class="header-item">
-            <a href="javascript:void(0)" class="header-link" onclick="btnController()">
+            <a href="#about" class="header-link" onclick="btnController()">
                 About
             </a>
         </div>
         <div class="header-item">
-            <a href="javascript:void(0)" class="header-link" onclick="btnController()">
+            <a href="#service" class="header-link" onclick="btnController()">
                 Services
             </a>
         </div>
         <div class="header-item">
-            <a href="javascript:void(0)" class="header-link" onclick="btnController()">
+            <a href="#portfolio" class="header-link" onclick="btnController()">
                 Portfolio
             </a>
         </div>
         <div class="header-item">
-            <a href="javascript:void(0)" class="header-link" onclick="btnController()">
+            <a href="#pricing" class="header-link" onclick="btnController()">
                 Price
             </a>
         </div>
         <div class="header-item">
-            <a href="javascript:void(0)" class="header-link" onclick="btnController()">
+            <a href="#blog" class="header-link" onclick="btnController()">
                 Blog
             </a>
         </div>
         <div class="header-item">
-            <a href="javascript:void(0)" class="header-link" onclick="btnController()">
+            <a href="#contact" class="header-link" onclick="btnController()">
                 Contact
             </a>
         </div>

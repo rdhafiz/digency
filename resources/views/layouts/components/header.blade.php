@@ -17,49 +17,49 @@
             </a>
             <div class="menu-dropdown">
                 <a href="{{route('home')}}" class="dropdown-links" onclick="btnController();">
-                    01. Home page with slider
+                    Home page with slider
                 </a>
                 <a href="{{route('home-background-image')}}" class="dropdown-links" onclick="btnController()">
-                    02. Home page with Background Image
+                    Home page with Background Image
                 </a>
                 <a href="{{route('home-background-video')}}" class="dropdown-links" onclick="btnController()">
-                    03. Home page with Background Video
+                    Home page with Background Video
                 </a>
                 <a href="{{route('home-two-columns')}}" class="dropdown-links" onclick="btnController()">
-                    04. Home page with Two Column
+                    Home page with Two Column
                 </a>
                 <a href="{{route('home-parallax-effect')}}" class="dropdown-links" onclick="btnController()">
-                    05. Home page with Parallax Effect
+                    Home page with Parallax Effect
                 </a>
             </div>
         </div>
         <div class="header-item">
-            <a href="javascript:void(0)" class="header-link" onclick="btnController()">
+            <a href="#about" class="header-link" onclick="btnController()">
                 About
             </a>
         </div>
         <div class="header-item">
-            <a href="javascript:void(0)" class="header-link" onclick="btnController()">
+            <a href="#service" class="header-link" onclick="btnController()">
                 Services
             </a>
         </div>
         <div class="header-item">
-            <a href="javascript:void(0)" class="header-link" onclick="btnController()">
+            <a href="#portfolio" class="header-link" onclick="btnController()">
                 Portfolio
             </a>
         </div>
         <div class="header-item">
-            <a href="javascript:void(0)" class="header-link" onclick="btnController()">
+            <a href="#pricing" class="header-link" onclick="btnController()">
                 Price
             </a>
         </div>
         <div class="header-item">
-            <a href="javascript:void(0)" class="header-link" onclick="btnController()">
+            <a href="#blog" class="header-link" onclick="btnController()">
                 Blog
             </a>
         </div>
         <div class="header-item">
-            <a href="javascript:void(0)" class="header-link" onclick="btnController()">
+            <a href="#contact" class="header-link" onclick="btnController()">
                 Contact
             </a>
         </div>
