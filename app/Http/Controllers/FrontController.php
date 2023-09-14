@@ -43,4 +43,8 @@ class FrontController extends Controller
     public function border_hover_effect(){
         return view('pages.border-hover-effect');
     }
+
+    public function loading_animation(){
+        return view('pages.loading-animation');
+    }
 }
