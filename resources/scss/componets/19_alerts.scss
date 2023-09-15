@@ -1,3 +1,28 @@
-.alert-theme{
-    background-color: #3E8FDA;
+.alert-theme {
+    background-color: rgba(62, 143, 218, .2);
+    color: darken($theme-color, 20%);
+    border: 1px solid lighten($theme-color, 30%);
+}
+
+
+.alert-theme-dark {
+    background-color: rgba(10, 83, 190, 0.2);
+    color: darken($theme-color, 30%);
+    border: 1px solid lighten($theme-color, 20%);
+}
+
+.alert-theme-light {
+    background-color: rgba(155, 208, 255, 0.2);
+    color: lighten($theme-color, 10%);
+    border: 1px solid lighten($theme-color, 30%);
+
+}
+
+.alert-theme-gradient {
+    background: rgba(13,79,136,.2);
+    background: linear-gradient(257deg, rgba(13,79,136,.2) 28%, rgba(62,143,218,.2) 100%);
+    color: lighten($theme-color, 10%);
+    border: 1px solid lighten($theme-color, 30%);
+
+
 }
