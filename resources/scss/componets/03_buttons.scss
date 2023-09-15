@@ -150,6 +150,11 @@
             border-bottom-left-radius: 4px;
         }
     }
+    &.rounded-0{
+        &:after{
+            border-bottom-left-radius: 0px;
+        }
+    }
 
     i {
         color: $theme-color;
