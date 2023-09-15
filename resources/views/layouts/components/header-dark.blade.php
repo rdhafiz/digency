@@ -11,7 +11,7 @@
             <i class="fa-solid fa-x"></i>
         </a>
         <div class="header-item">
-            <a href="javascript:void(0)" class="header-link" onclick="dropdownToggle();dropIconToggle()">
+            <a href="javascript:void(0)" class="header-link" onclick="dropdownToggle(event);dropIconToggle(event)">
                 Home <i class="fa-solid fa-chevron-down drop-icon"></i>
             </a>
             <div class="menu-dropdown">
@@ -67,34 +67,34 @@
                 Components <i class="fa-solid fa-chevron-down drop-icon"></i>
             </a>
             <div class="menu-dropdown">
-                <a href="{{route('home')}}" class="dropdown-links" onclick="btnController();">
+                <a href="javascript:void(0)" class="dropdown-links" onclick="btnController();">
                     CheckBox & Radio
                 </a>
-                <a href="{{route('home-background-image')}}" class="dropdown-links" onclick="btnController()">
+                <a href="javascript:void(0)" class="dropdown-links" onclick="btnController()">
                     Range
                 </a>
-                <a href="{{route('home-background-video')}}" class="dropdown-links" onclick="btnController()">
+                <a href="javascript:void(0)" class="dropdown-links" onclick="btnController()">
                     Alerts
                 </a>
-                <a href="{{route('home-two-columns')}}" class="dropdown-links" onclick="btnController()">
+                <a href="javascript:void(0)" class="dropdown-links" onclick="btnController()">
                     Backgrounds
                 </a>
-                <a href="{{route('home-parallax-effect')}}" class="dropdown-links" onclick="btnController()">
+                <a href="{{route('button-variations')}}" class="dropdown-links" onclick="btnController()">
                     Buttons
                 </a>
-                <a href="{{route('home-parallax-effect')}}" class="dropdown-links" onclick="btnController()">
+                <a href="javascript:void(0)" class="dropdown-links" onclick="btnController()">
                     Pagination
                 </a>
-                <a href="{{route('home-parallax-effect')}}" class="dropdown-links" onclick="btnController()">
+                <a href="javascript:void(0)" class="dropdown-links" onclick="btnController()">
                     Progress
                 </a>
-                <a href="{{route('home-parallax-effect')}}" class="dropdown-links" onclick="btnController()">
+                <a href="javascript:void(0)" class="dropdown-links" onclick="btnController()">
                     Loading Animations
                 </a>
-                <a href="{{route('home-parallax-effect')}}" class="dropdown-links" onclick="btnController()">
+                <a href="{{route('shadow-hover-effect')}}" class="dropdown-links" onclick="btnController()">
                     Hover Shadow
                 </a>
-                <a href="{{route('home-parallax-effect')}}" class="dropdown-links" onclick="btnController()">
+                <a href="{{route('border-hover-effect')}}" class="dropdown-links" onclick="btnController()">
                     Hover Borders
                 </a>
             </div>

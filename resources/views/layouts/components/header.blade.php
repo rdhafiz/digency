@@ -80,7 +80,7 @@
                 <a href="javascript:void(0)" class="dropdown-links" onclick="btnController()">
                     Backgrounds
                 </a>
-                <a href="javascript:void(0)" class="dropdown-links" onclick="btnController()">
+                <a href="{{route('button-variations')}}" class="dropdown-links" onclick="btnController()">
                     Buttons
                 </a>
                 <a href="javascript:void(0)" class="dropdown-links" onclick="btnController()">
