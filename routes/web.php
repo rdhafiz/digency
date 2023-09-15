@@ -22,3 +22,4 @@ Route::get('/homepage-with-background-parallax-effect', [FrontController::class,
 Route::get('/button-variations', [FrontController::class, 'button_variations'])->name('button-variations');
 Route::get('/shadow-hover-effect', [FrontController::class, 'shadow_hover_effect'])->name('shadow-hover-effect');
 Route::get('/border-hover-effect', [FrontController::class, 'border_hover_effect'])->name('border-hover-effect');
+Route::get('/loading-animation', [FrontController::class, 'loading_animation'])->name('loading-animation');
