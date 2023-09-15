@@ -1,8 +1,14 @@
 .loading-content{
     min-height: 500px;
-    padding: 60px 0;
+    padding: 100px 0 60px;
     background-color: #000000;
 
+    .loading{
+        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     /*loading one*/
     .loading-one {
         transform: rotateZ(45deg);

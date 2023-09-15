@@ -88,7 +88,7 @@
                 <a href="javascript:void(0)" class="dropdown-links" onclick="btnController()">
                     Progress
                 </a>
-                <a href="javascript:void(0)" class="dropdown-links" onclick="btnController()">
+                <a href="{{route('loading-animation')}}" class="dropdown-links" onclick="btnController()">
                     Loading Animations
                 </a>
                 <a href="{{route('shadow-hover-effect')}}" class="dropdown-links" onclick="btnController()">
