@@ -35,7 +35,8 @@
 
 @if(
     $routeName == 'home-two-columns' || $routeName == 'button-variations' ||
-    $routeName == 'shadow-hover-effect' || $routeName == 'border-hover-effect')
+    $routeName == 'shadow-hover-effect' || $routeName == 'border-hover-effect' ||
+    $routeName == 'loading-animation')
 
     @include('layouts.components.header-dark')
 
