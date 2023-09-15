@@ -73,7 +73,7 @@
                 <a href="javascript:void(0)" class="dropdown-links" onclick="btnController()">
                     Range
                 </a>
-                <a href="javascript:void(0)" class="dropdown-links" onclick="btnController()">
+                <a href="{{route('alerts')}}" class="dropdown-links" onclick="btnController()">
                     Alerts
                 </a>
                 <a href="javascript:void(0)" class="dropdown-links" onclick="btnController()">

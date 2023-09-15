@@ -145,6 +145,12 @@
     position: relative;
     overflow: hidden;
 
+    &.btn{
+        &:after{
+            border-bottom-left-radius: 4px;
+        }
+    }
+
     i {
         color: $theme-color;
         font-size: 25px;
