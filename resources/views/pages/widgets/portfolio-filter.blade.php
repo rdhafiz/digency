@@ -246,7 +246,7 @@
 
             </div>
         </div>
-    </div>z
+    </div>
 
 </section>
 <!--portfolio section end  -->
