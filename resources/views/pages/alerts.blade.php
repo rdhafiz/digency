@@ -58,7 +58,8 @@
                     <div class="alert alert-theme-gradient-animated">Alert theme gradient animated—check it out!</div>
                     <div class="sm-title">HTML :</div>
                     <xmp class="white-space-inherit code-line">
-                        <div class="alert alert-theme-gradient-animated">Alert theme gradient animated—check it out!</div>
+                        <div class="alert alert-theme-gradient-animated">Alert theme gradient animated—check it out!
+                        </div>
                     </xmp>
                     <!--Alert gradient theme animated end  -->
 
@@ -99,10 +100,13 @@
 
                     <!--Alert gradient primary animated start-->
                     <div class="sm-title">Alert gradient primary animated</div>
-                    <div class="alert alert-primary-gradient-animated">Alert primary gradient animated—check it out!</div>
+                    <div class="alert alert-primary-gradient-animated">Alert primary gradient animated—check it out!
+                    </div>
                     <div class="sm-title">HTML :</div>
                     <xmp class="white-space-inherit code-line">
-                        <div class="alert alert-primary-gradient-animated">Alert primary gradient animated—check it out!</div>
+                        <div class="alert alert-primary-gradient-animated">Alert primary gradient animated—check it
+                            out!
+                        </div>
                     </xmp>
                     <!--Alert gradient primary animated end  -->
 
@@ -189,10 +193,13 @@
 
                     <!--Alert gradient warning animated start-->
                     <div class="sm-title">Alert gradient warning animated</div>
-                    <div class="alert alert-warning-gradient-animated">Alert warning gradient animated—check it out!</div>
+                    <div class="alert alert-warning-gradient-animated">Alert warning gradient animated—check it out!
+                    </div>
                     <div class="sm-title">HTML :</div>
                     <xmp class="white-space-inherit code-line">
-                        <div class="alert alert-warning-gradient-animated">Alert warning gradient animated—check it out!</div>
+                        <div class="alert alert-warning-gradient-animated">Alert warning gradient animated—check it
+                            out!
+                        </div>
                     </xmp>
                     <!--Alert gradient warning animated end  -->
 
@@ -236,10 +243,10 @@
                     <div class="alert alert-danger-gradient-animated">Alert danger gradient animated—check it out!</div>
                     <div class="sm-title">HTML :</div>
                     <xmp class="white-space-inherit code-line">
-                        <div class="alert alert-danger-gradient-animated">Alert danger gradient animated—check it out!</div>
+                        <div class="alert alert-danger-gradient-animated">Alert danger gradient animated—check it out!
+                        </div>
                     </xmp>
                     <!--Alert gradient danger animated end  -->
-
 
 
                 </div>
