@@ -47,4 +47,7 @@ class FrontController extends Controller
     public function loading_animation(){
         return view('pages.loading-animation');
     }
+    public function alerts(){
+        return view('pages.alerts');
+    }
 }

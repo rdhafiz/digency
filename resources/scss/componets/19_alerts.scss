@@ -1,0 +1,165 @@
+.alert-theme {
+    background-color: rgba(62, 143, 218, .2);
+    color: darken($theme-color, 20%);
+    border: 1px solid lighten($theme-color, 30%);
+}
+
+
+.alert-theme-dark {
+    background-color: $theme-color;
+    color: #fff;
+    border: 1px solid $theme-color;
+}
+
+.alert-theme-light {
+    background-color: rgba(62, 143, 218, .2);
+    color: darken($theme-color, 20%);
+    border: 1px solid $theme-color;
+}
+
+.alert-theme-gradient {
+    background: $theme-color;
+    background: linear-gradient(to right, darken($theme-color, 10%) 28%, lighten($theme-color, 10%) 100%);
+    color: #fff;
+    border: 1px solid lighten($theme-color, 30%);
+}
+
+.alert-theme-gradient-animated {
+    background-size: 200% auto;
+    background-image: linear-gradient(to right, darken($theme-color, 10%) 28%, lighten($theme-color, 10%) 100%);
+    color: #fff;
+    border: 1px solid lighten($theme-color, 30%);
+    animation: gradient-left-to-right 2s linear infinite;
+}
+
+
+.alert-primary-dark {
+    background-color: #0d6efd;
+    color: #fff;
+    border: 1px solid #0d6efd;
+}
+
+
+.alert-primary-light {
+    background-color: #7fafff;
+    color: darken(#0d6efd, 20%);
+    border: 1px solid #0d6efd;
+}
+
+
+.alert-primary-gradient {
+    background: #0d6efd;
+    background: linear-gradient(to right, darken(#0d6efd, 10%) 28%, lighten(#0d6efd, 10%) 100%);
+    color: #fff;
+    border: 1px solid lighten(#0d6efd, 30%);
+}
+
+.alert-primary-gradient-animated {
+    background-size: 200% auto;
+    background-image: linear-gradient(to right, darken(#0d6efd, 10%) 28%, lighten(#0d6efd, 10%) 100%);
+    color: #fff;
+    border: 1px solid lighten(#0d6efd, 30%);
+    animation: gradient-left-to-right 2s linear infinite;
+
+}
+
+
+.alert-info-dark {
+    background-color: #0dcaf0;
+    color: #fff;
+    border: 1px solid #0dcaf0;
+}
+
+.alert-info-light {
+    background-color: rgba(13, 202, 240, .2);
+    color: darken(#0dcaf0, 20%);
+    border: 1px solid #0dcaf0;
+}
+
+.alert-info-gradient {
+    background: #0dcaf0;
+    background: linear-gradient(to right, darken(#0dcaf0, 10%) 28%, lighten(#0dcaf0, 10%) 100%);
+    color: #fff;
+    border: 1px solid lighten(#0dcaf0, 30%);
+}
+
+.alert-info-gradient-animated {
+    background-size: 200% auto;
+    background-image: linear-gradient(to right, darken(#0dcaf0, 10%) 28%, lighten(#0dcaf0, 10%) 100%);
+    color: #fff;
+    border: 1px solid lighten(#0dcaf0, 30%);
+    animation: gradient-left-to-right 2s linear infinite;
+
+}
+
+
+.alert-warning-dark {
+    background-color: #ffca2c;
+    color: #fff;
+    border: 1px solid #ffca2c;
+}
+
+.alert-warning-light {
+    background-color: rgba(255, 202, 44, .2);
+    color: darken(#ffca2c, 20%);
+    border: 1px solid #ffca2c;
+}
+
+.alert-warning-gradient {
+    background: #ffca2c;
+    background: linear-gradient(to right, darken(#ffca2c, 10%) 28%, lighten(#ffca2c, 10%) 100%);
+    color: #fff;
+    border: 1px solid lighten(#ffca2c, 30%);
+}
+
+.alert-warning-gradient-animated {
+    background-size: 200% auto;
+    background-image: linear-gradient(to right, darken(#ffca2c, 10%) 28%, lighten(#ffca2c, 10%) 100%);
+    color: #fff;
+    border: 1px solid lighten(#ffca2c, 30%);
+    animation: gradient-left-to-right 2s linear infinite;
+
+}
+
+
+.alert-danger-dark {
+    background-color: #dc3545;
+    color: #fff;
+    border: 1px solid #dc3545;
+}
+
+.alert-danger-light {
+    background-color: rgba(220, 53, 69, .2);
+    color: darken(#dc3545, 20%);
+    border: 1px solid #dc3545;
+}
+
+.alert-danger-gradient {
+    background: #dc3545;
+    background: linear-gradient(to right, darken(#dc3545, 10%) 28%, lighten(#dc3545, 10%) 100%);
+    color: #fff;
+    border: 1px solid lighten(#dc3545, 30%);
+}
+
+.alert-danger-gradient-animated {
+    background-size: 200% auto;
+    background-image: linear-gradient(to right, darken(#dc3545, 10%) 28%, lighten(#dc3545, 10%) 100%);
+    color: #fff;
+    border: 1px solid lighten(#dc3545, 30%);
+    animation: gradient-left-to-right 2s linear infinite;
+
+}
+
+
+@keyframes gradient-left-to-right {
+    0% {
+        background-position: inherit;
+    }
+    50% {
+        background-position: right center;
+    }
+    100% {
+        background-position: left center;
+    }
+
+}
