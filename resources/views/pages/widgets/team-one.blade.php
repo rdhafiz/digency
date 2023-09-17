@@ -30,7 +30,7 @@
             <div class="p-3">
                 <div class="border-bottom-theme">
                     <div class="content-show">
-                        <img src="{{asset('images/home/team-member-1.jpg')}}" class="img-fluid" alt="">
+                        <img src="{{asset('images/home/team-member-1.jpg')}}" class="img-fluid w-100" alt="">
                         <div class="social-icon">
                             <a href="javascript:void(0)">
                                 <i class="fab fa-facebook-f"></i>
@@ -52,7 +52,7 @@
             <div class="p-3">
                 <div class="border-bottom-theme">
                     <div class="content-show">
-                        <img src="{{asset('images/home/team-member-2.jpg')}}" class="img-fluid" alt="">
+                        <img src="{{asset('images/home/team-member-2.jpg')}}" class="img-fluid w-100" alt="">
                         <div class="social-icon">
                             <a href="javascript:void(0)">
                                 <i class="fab fa-facebook-f"></i>
@@ -74,7 +74,7 @@
             <div class="p-3">
                 <div class="border-bottom-theme">
                     <div class="content-show">
-                        <img src="{{asset('images/home/team-member-3.jpg')}}" class="img-fluid" alt="">
+                        <img src="{{asset('images/home/team-member-3.jpg')}}" class="img-fluid w-100" alt="">
                         <div class="social-icon">
                             <a href="javascript:void(0)">
                                 <i class="fab fa-facebook-f"></i>
@@ -96,7 +96,7 @@
             <div class="p-3">
                 <div class="border-bottom-theme">
                     <div class="content-show">
-                        <img src="{{asset('images/home/team-member-4.jpg')}}" class="img-fluid" alt="">
+                        <img src="{{asset('images/home/team-member-4.jpg')}}" class="img-fluid w-100" alt="">
                         <div class="social-icon">
                             <a href="javascript:void(0)">
                                 <i class="fab fa-facebook-f"></i>
