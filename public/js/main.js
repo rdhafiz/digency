@@ -8,12 +8,20 @@ function PreLoader(){
 
 let header = $(".header");
 let scrollChange = 10;
+let scrollPosition = localStorage.getItem('scrollPosition')
+
+if(scrollPosition => scrollChange) {
+    header.addClass('header-scroll')
+}
+
 $(window).scroll(function () {
     let scroll = $(window).scrollTop();
     if (scroll >= scrollChange) {
         header.addClass('header-scrolled');
+        localStorage.setItem('scrollPosition', scroll);
     } else {
         header.removeClass("header-scrolled");
+        localStorage.removeItem('scrollPosition');
     }
 });
 

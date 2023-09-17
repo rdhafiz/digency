@@ -1,5 +1,5 @@
 .btn-theme {
-    background: $theme-color;
+    background: $theme-color !important;
     color: #fff;
     border-color: $theme-color;
 
@@ -66,9 +66,9 @@
 
 
 .btn-outline-theme {
-    color: $theme-color;
+    color: $theme-color !important;
     background: #fff;
-    border: 1px solid $theme-color;
+    border: 1px solid $theme-color !important;
 
     &.btn-outline-theme-ripple {
         position: relative;
@@ -96,8 +96,8 @@
 
         &:hover {
             background-color: transparent;
-            border: 1px solid $theme-color;
-            color: #fff;
+            border: 1px solid $theme-color !important;
+            color: #fff !important;
 
             span {
                 position: relative;
@@ -135,7 +135,6 @@
 .btn-spacial-icon {
     background: #fff !important;
     outline: none;
-    border: none;
     vertical-align: middle;
     text-transform: uppercase;
     font-size: 12px;
