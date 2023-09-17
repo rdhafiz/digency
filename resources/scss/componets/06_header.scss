@@ -11,6 +11,11 @@
         padding: 0 20px;
     }
 
+    &.scrollPosition {
+        background-color: #ffffff;
+        box-shadow: 0 0 8px 0 #D3D3D3FF;
+    }
+
     &.header-scrolled {
         background-color: #ffffff;
         transition: transform .5s;
@@ -247,12 +252,14 @@
                     transition: 0s;
                     padding: 5px;
                     top: 45px;
+                    height: 0;
 
                     &.active {
                         position: sticky;
                         visibility: visible;
                         opacity: 1;
                         margin-right: 0;
+                        height: auto;
                     }
 
                 }
